@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resalers>
+	<return value="add_resaler_info:-101"	message="添加代理商billing信息错误" />
+	<return value="add_resaler_info:-102"  	message="代理商名称已经存在" />
+	<return value="add_resaler_info:-103"  	message="代理商号码前缀已经存在" />
+	<return value="add_wfs_resaler_info:-101"  	message="添加代理商设备信息错误" />
+	<return value="add_wfs_resaler_info:101"  	message="添加代理商信息成功" />
+	<return value="edit_resaler_charge_plan:-101"  	message="修改代理商资费信息失败" />
+	<return value="edit_resaler_charge_plan:101"  	message="添加代理商资费信息成功" />
+	<return value="edit_resaler_oem_info:101"  	message="添加代理商OEM信息成功" />
+	<return value="edit_resaler_oem_info:-101"  	message="添加代理商OEM信息失败" />
+	<return value="-105"  	message="数据库执行错误" />
+</resalers>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ep_list>
+	<return value="-101"  message="获取数据失败，请稍候再试，代码[%1$d]" />
+</ep_list>

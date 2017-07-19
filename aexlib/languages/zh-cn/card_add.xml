@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<query>
+	<return value="101"  message="添加充值卡成功，代码[%1$s]"/>
+	<return value="-101"  message="获取充值卡信息错误，请联系管理员。代码［%1$d］。" />
+	<return value="-201" message="充值卡不存在。代码［%1$d］。" />
+	<return value="-202" message="停用源充值卡失败。代码［%1$d］。" />
+	<return value="-401" message="充值卡已经存在。代码［%1$d］。" />
+	<return value="-402" message="创建充值卡失败。代码［%1$d］。" />
+	
+</query>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<applay_bonus>
+	<return value="201"  message="已经将%2$d奖金转入话费帐号，代码[%1$d]。" />
+	<return value="521"  message="已经将%2$d奖金转入话费帐号，代码[%1$d]。" />
+	<return value="-521"  message="帐号%2$s验证失败，代码[%1$d]。" />
+	<return value="-522"  message="没有找到%2$s管理员帐号，代码[%1$d]。" />
+	<return value="-523"  message="帐户%2$s的余额不足，代码[%1$d]。" />
+	<return value="-524"  message="帐户%2$s的管理员没有与话费运营商签约，代码[%1$d]。" />
+	<return value="-525"  message="帐户%2$s的管理员总帐户余额不足，代码[%1$d]。" />
+	<return value="-530"  message="服务未启用，暂时无法提供。代码[%d]。" />
+</applay_bonus>

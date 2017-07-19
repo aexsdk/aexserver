@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<query>
+	<return value="101"  message="充值卡：%2$s&#13;&#10;面额：%3$s元&#13;&#10;密码：%4$s&#13;&#10;状态为:%5$s。&#13;&#10;代码[%1$s]"/>
+	<return value="-101"  message="充值卡不存在。代码［%1$d］。" />
+	<return value="-102" message="充值卡的不属于您的经销商。代码［%1$d］。" />
+</query>

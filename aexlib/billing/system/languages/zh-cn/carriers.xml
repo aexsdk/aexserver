@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carriers>
+	<return value="-105"  	message="数据库错误,请联系管理员" />
+	<return value="add_product_list:1"	message="产品信息添加成功" />
+	<return value="add_product_list:-1"  	message="产品信息添加失败" />
+</carriers>
+

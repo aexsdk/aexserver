@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recharge_by3pay>
+	<return value="1"  message="充值成功"/>
+	<return value="-8"  message="订单号重复或写入订单错误"/>
+	<return value="-3"  message="充值金额必须大于0" />
+	<return value="-5"  message="充值货币类型不同，无法换算" />
+	<return value="-1"  message="账号不存在"/>
+	<return value="-4"  message="充值失败"/>
+</recharge_by3pay>

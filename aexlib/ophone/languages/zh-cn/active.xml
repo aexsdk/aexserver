@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<active>
+	<return value="201"  message="激活成功！代码［%1$d］" />
+	<return value="202"  message="绑定手机成功！代码［%1$d］"/>
+	<return value="203"  message="，有效期至:"/>
+	<return value="204"  message="激活手机成功，转账金额为[%2$s]。代码［%1$d］"/>
+	<return value="205"  message="激活手机成功，转账失败，请联系客服人员。代码［%1$d］"/>
+	<return value="-201" message="激活失败，手机序列号不正确。代码［%1$d］"/>
+	<return value="-202" message="激活失败，该手机未做出厂设置。代码［%1$d］"/>
+	<return value="-203" message="激活失败，该手机已过激活日期。代码［%1$d］"/>
+	<return value="-204" message="激活失败，该手机已经与其他手机号进行绑定。代码［%1$d］"/>
+	<return value="-205" message="激活失败，该手机号已经与其他手机进行绑定。代码［%1$d］"/>
+	<return value="-206" message="激活失败，系统错误。代码［%1$d］"/>
+	<return value="-207" message="激活失败，执行激活操作失败。代码［%1$d］"/>
+	<return value="-213" message="绑定失败，绑定手机时密码错误。代码［%1$d］"/>
+	<return value="-214" message="绑定失败，系统错误。代码［%1$d］"/>
+	<return value="-222" message="激活失败，生成用户信息失败。代码［%1$d］"/>
+	<return value="-224" message="激活失败，手机号码为空。代码［%1$d］"/>
+	<return value="-225" message="激活失败，手机GUID为空。代码［%1$d］"/>
+	<return value="-226" message="激活失败，终端号码为空。代码［%1$d］"/>
+	<return value="-227" message="激活失败，终端号码密码为空。代码［%1$d］"/>
+	<return value="-228" message="激活失败，系统错误。代码［%1$d］"/>
+	<return value="-101" message="激活失败，系统错误。代码［%1$d］"/>
+	<return value="-102" message="激活失败，系统错误。代码［%1$d］"/>
+	<return value="-103" message="激活失败，系统错误。代码［%1$d］"/>  	
+</active>

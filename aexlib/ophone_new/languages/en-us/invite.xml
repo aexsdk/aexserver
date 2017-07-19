@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<invite>
+	<return value="451"  message="Dialed %2$s for you please wait auto answer.If not,maybe network busy your can redial later. Return code[%d]" />
+	<return value="-150" message="You cand use %2$s talk to %3$s less than one minute.Please recharge and try again.Code[%1$d]" />
+	<return value="-151" message="Select call route fail,Please check your owner number(%2$s) and dial number(%3$s) and try again.Code[%1$d]" />
+	<return value="-152" message="We can not call to your owner number(%2$s),Please check network and try again later.Code[%1$d]" />
+	<return value="-152" message="We can not call to your owner number(%2$s),Please connect us by hotline.Code[%1$d]" />
+
+	<return value="-450" message="Invite failure. Calling duration is zero. Return code[%d]" />
+	<return value="-451" message="Invite failure. Pin has expired。Return code[%d]"/>
+	<return value="-452" message="Invite failure. Account and password does not match.Return code[%d]"/>
+	<return value="-453" message="Invite failure. The password is incorrect.Return code[%d]"/>
+	<return value="-454" message="Invite failure. Call restrictions.Return code[%d]"/>
+	<return value="-455" message="Invite failure. Balance not enough.Return code[%d]"/>
+	<return value="-456" message="Invite failure. Callee no response, please try again later. Return code[%d]"/>
+	<return value="-458" message="Invite failure. The line is busy or wrong number, please try again after verification. Return code[%d]"/>
+	<return value="-459" message="Invite failure. The line is busy or wrong number, please try again after verification. Return code[%d]"/>
+	<return value="-460" message="Invite failure. Your account of less than the minimum consumption amount, cannot use this function. Return code[%d]" />
+	<return value="-461" message="No account bound with caller, or invalid account. Return code[%d]" />
+	<return value="-462" message="The password is incorrect. Return code[%d]" />
+	<return value="-464" message="Unauthorized calling. Return code[%d]" />
+	<return value="-465" message="Balance is not enough. Return code[%d]" />
+	<return value="-466" message="The call interval is too short. Return code[%d]" />
+	<return value="-470" message="Authentication of H323ID+E164 failed. Return code[%d]" />
+	<return value="-471" message="H323ID not existed. Return code[%d]" />
+	<return value="-472" message="Authentication of IP address failed. Return code[%d]" />
+	<return value="-473" message="Authentication of H323ID or IP address failed. Return code[%d]" />
+	<return value="-474" message="The gateway of PSTN with authenticated caller can not use own E164 to make call, but only use real PSTN caller number. code[%d]" />
+	<return value="-491" message="Calculate the fee of call transfer failed, because callee can not be transferd, or the prepayment is not enough. Return code[%d]" />
+	<return value="-899" message="Validation fail: no balance or call minutes.Code[%1$d]" />
+	<return value="-939" message="Authenticate for caller %2$s fail.Code[%1$d]" />
+	<return value="-1000" message="Authenticate for caller %2$s fail.Code[%1$d]" />
+	<return value="-1005" message="Your balance is not enough for %2$s call %3$s.Code[%1$d]" />
+	<return value="-1100" message="You balance is lower than reqired for the charge plan.Code[%1$d]" />
+	<return value="-1939" message="Authenticate for callee %3$s fail.Code[%1$d]" />
+	<return value="-2000" message="Authenticate for callee %3$s fail.Code[%1$d]" />
+	<return value="-2005" message="Your balance is not enough for %2$s call %3$s.Code[%1$d]" />
+	<return value="-2100" message="You balance is lower than reqired for the charge plan.Code[%1$d]" />
+</invite>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vpn_delete>
+	<return value="101"  message="修改成功" />
+	<return value="-102"  message="修改失败" />
+</vpn_delete>

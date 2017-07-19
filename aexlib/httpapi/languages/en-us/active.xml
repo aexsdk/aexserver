@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<active>
+	<return value="201"  message="Account activate success!Return code［%1$d］" />
+	<return value="202"  message="Binding success!Return code［%1$d］"/>
+	<return value="203"  message="，valid until::"/>
+	<return value="204"  message="Account activate success，Transfer amount:Return code［%1$d］"/>
+	<return value="205"  message="Account activate success，Transfer amount fail，Please contact customer service personnel!Return code［%1$d］"/>
+	<return value="-201" message="Account activate fail，Incorrect GUID。Return code［%1$d］"/>
+	<return value="-202" message="Activate failure，Not making factory Settings。Return code［%1$d］"/>
+	<return value="-203" message="Activate failure，Account expired。Return code［%1$d］"/>
+	<return value="-204" message="Activate failure，The phone already bound to other PhoneNumber。Return code［%1$d］"/>
+	<return value="-205" message="Activate failure，The phoneNumber already bound to other phone。Return code［%1$d］"/>
+	<return value="-206" message="Activate failure，Fail to process WFS database。Return code［%1$d］"/>
+	<return value="-207" message="Activate failure，Account activate failure。Return code［%1$d］"/>
+	<return value="-213" message="Activate failure，Incorrect password。Return code［%1$d］"/>
+	<return value="-214" message="Activate failure，Fail to process billing database。Return code［%1$d］"/>
+	<return value="-222" message="Activate failure，Account creation failure。Return code［%1$d］"/>
+	<return value="-224" message="Activate failure，missing PhoneNumber。Return code［%1$d］"/>
+	<return value="-225" message="Activate failure，missing GUID。Return code［%1$d］"/>
+	<return value="-226" message="Activate failure，missing pin-number。Return code［%1$d］"/>
+	<return value="-227" message="Activate failure，missing pin-password。Return code［%1$d］"/>
+	<return value="-228" message="Activate failure，Radius server is not responding。Return code［%1$d］"/>
+	<return value="-101" message="Activate failure，Radius server is not responding。Return code［%1$d］"/>
+	<return value="-102" message="Activate failure，No return code, server reject。Return code［%1$d］"/>
+	<return value="-103" message="Activate failure，No return code, server reject。Return code［%1$d］"/>  	
+</active>

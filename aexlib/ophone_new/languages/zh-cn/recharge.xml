@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recharge>
+  <return value="301"  message="%1$s，类型：%2$s，充值卡号:%3$s，手机号码：%4$s。" />
+  <return value="302"  message="充值卡面额:%1$s%2$s;" /> 
+  <return value="303"  message="帐户余额:%1$s%2$s；" /> 
+  <return value="304"  message="有效期至:%s；" /> 
+  <return value="305"  message="免费时长:%s 分钟；" />
+  <return value="306"  message="套餐：%s；"/>
+  <return value="307"  message="剩余时间：%s；"/>
+  <return value="-301" message="充值失败，卡号或者密码错误。代码［%1$d］。" /> 
+  <return value="-302" message="充值失败，充值卡已过期。代码［%1$d］。" /> 
+  <return value="-303" message="Recharge failure，pin number miss,Return code［%1$d］。" /> 
+  <return value="-304" message="充值失败，充值卡余额不足。代码［%1$d］。" /> 
+  <return value="-305" message="充值失败，充值卡已被使用。代码［%1$d］。" /> 
+  <return value="-306" message="充值失败，无效的充值卡发行商。代码［%1$d］。" /> 
+  <return value="-307" message="充值失败，货币类型不匹配。代码［%1$d］。" /> 
+  <return value="-308" message="Recharge failure，Return code［%1$d］。" /> 
+  <return value="-309" message="减少帐户余额失败。代码［%1$d］" /> 
+  <return value="601"  message="Recharge success，The amount of cost；Return code[%1$s]。" />
+  <return value="600"   message="提交成功，请稍候查询余额或者等待短信通知。代码 [%1$s]。" />
+  <return value="-601"  message="充值失败，数字签名无效。代码 [%1$s]。" />	
+  <return value="-602"  message="充值失败，密钥无效。代码 [%1$s]。" />
+  <return value="-603"  message="充值失败，订单重复。代码 [%1$s]。" />
+  <return value="-604"  message="Submit failure，The amount paid miss!Return code[%1$s]。" />
+  <return value="-605"  message="Submit failure，Payment untutored!Return code[%1$s]。" />
+  <return value="-606"  message="Submit failure，Business status in this card business and untutored!Return code[%1$s]。" />
+  <return value="-607"  message="Submit failure，Fill in error value of recharge-pin!Return code[%1$s]。" />
+  <return value="-608"  message="Submit failure，Card password is empty or quantity is not equal!Return code[%1$s]。" />
+  <return value="-609"  message="Submit failure，Please check it and try is again!Return code[%1$s]。" />
+  <return value="-610"  message="Recharge failure，Recharge-pin recharge success，the pin recharge failure；Return code[%1$s]。" />
+  <return value="-611"  message="Recharge failure，Recharge-pin recharge success，return card status error，!Return code[%1$s]。" />
+  <return value="-612"  message="Recharge failure，Recahrge-pin value and  password miss!Return code[%1$s]。" />
+  <return value="-613"  message="Recharge failure，This card is close you submit too frequent, please try again later!Return code[%1$s]。" />  
+  <return value="-614"  message="Recharge failure，Don't support card types（Such as telecom local card）!Return code[%1$s]。" />  
+  <return value="-615"  message="Recharge failure，Password mistake or recharge card invalid!Return code[%1$s]。" />  
+  <return value="-616"  message="Recharge failure，The CARDS in the continuous error!Return code[%1$s]。" />  
+  <return value="-617"  message="Recharge failure，The value of card not enough!Return code[%1$s]。" />  
+  <return value="-618"  message="Recharge failure，This card is processed!Return code[%1$s]。" />  
+  <return value="-619"  message="充值失败，充值卡已经被使用。代码 [%1$s]。" />  
+  <return value="-620"  message="Recharge failure，Card in the system process!Return code[%1$s]。" />  
+  <return value="-621"  message="充值失败，该卡为假卡!代码 [%1$s]。" />  
+  <return value="-622"  message="Recharge failure，Which kind of are maintenance!!Return code[%1$s]。" />  
+  <return value="-623"  message="Recharge failure，Zhejiang mobile maintenance!Return code[%1$s]。" />  
+  <return value="-624"  message="Recharge failure，Jiangsu mobile maintenance!Return code[%1$s]。" />  
+  <return value="-625"  message="Recharge failure，Fujian mobile maintenance!Return code[%1$s]。" />  
+  <return value="-626"  message="Recharge failure，Liaoning mobile maintenance!Return code[%1$s]。" />  
+  <return value="-627"  message="Recharge failure，An unknown error!Return code[%1$s]。" />  
+  <return value="-628"  message="提交成功，请稍后查询余额或者等待短信通知。代码 [%1$s]。" />        
+</recharge>

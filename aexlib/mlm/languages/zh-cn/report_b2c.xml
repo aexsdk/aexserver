@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report_b2c>
+	<return value="-101"  message="手机和手机号验证失败，代码[%d]。" />
+	<return value="-102"  message="手机和登录名验证失败，代码[%d]。" />
+	<return value="-103"  message="手机串号未能找到，手机可能未激活，代码[%d]。" />
+	<return value="-104"  message="订单不存在，代码[%d]。" />
+	<return value="-105"  message="计算B2C失败，代码[%d]。" />
+	<return value="-108"  message="该订单已经报过单，若有问题，请联系商城，代码[%d]。" />
+	<return value="-109"  message="该订单金额为0，代码[%d]。" />
+	<return value="-110"  message="该用户出库金额不足，代码[%d]。" />
+</report_b2c>
+
+

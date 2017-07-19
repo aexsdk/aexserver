@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unbind>
+    <return value="401"  message="取消手机绑定成功！代码[%1$s]" />
+    <return value="-401" message="操作失败，手机序列号不存在;代码[%1$s]"/>
+    <return value="-402" message="操作失败，操作密码不正确;代码[%1$s]"/>
+    <return value="-403" message="操作失败，手机号码与激活时的绑定信息不匹配;代码[%1$s]"/>
+    <return value="-404" message="系统错误，稍后再试;代码[%1$s]"/>
+    <return value="-405" message="功能尚未开通，转移余额暂时无法使用;代码[%1$s]"/>
+</unbind>

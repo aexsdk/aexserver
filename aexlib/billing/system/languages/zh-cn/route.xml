@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<route>
+	<return value="-105"  	message="数据库失败" />
+	<return value="add_prefix_list:-103"  	message="该路由选择已经存在" />
+	<return value="add_prefix_list:-102"  	message="添加路由选择失败" />
+	<return value="add_prefix_list:101"		message="添加路由选择成功" />
+	<return value="edit_prefix_list:-103"  	message="该路由选择不存在" />
+	<return value="edit_prefix_list:-102"  	message="修改路由选择失败" />
+	<return value="edit_prefix_list:101"	message="修改路由选择成功" />
+	<return value="delete_prefix_list:-103"  message="删除数据不存在" />
+	<return value="delete_prefix_list:-102"  message="添加数据失败" />
+	<return value="delete_prefix_list:101"  message="删除数据成功" />
+	<return value="add_server_list:-103"  message="该回拨服务器已经存在" />
+	<return value="add_server_list:-102"  message="添加回拨服务器失败" />
+	<return value="add_server_list:101"  message="添加回拨服务器速度成功" />
+	<return value="delete_server_list:-103"  message="删除数据不存在" />
+	<return value="delete_server_list:-102"  message="添加数据失败" />
+	<return value="delete_server_list:101"  message="删除数据成功" />
+	<return value="edit_server_list:-101"  message="修改数据失败" />
+	<return value="edit_server_list:101"  message="修改数据成功" />
+	<return value="edit_server_list:-103"  message="修改数据不存在" />
+	<return value="add_gateway_list:-103"  message="该号码落地服务器已经存在" />
+	<return value="add_gateway_list:-101"  message="添加落地服务器失败" />
+	<return value="add_gateway_list:101"  message="添加落地服务器成功" />
+	<return value="delete_gateway_list:-103"  message="删除数据不存在" />
+	<return value="delete_gateway_list:-101"  message="添加数据失败" />
+	<return value="delete_gateway_list:101"  message="删除数据成功" />
+	<return value="edit_gateway_list:101"  message="修改落地服务器信息成功" />
+	<return value="edit_gateway_list:-103"  message="修改信息不存在" />
+	<return value="edit_gateway_list:-105"  message="数据库错误" />
+	<return value="add_server_speed:-103"  message="该落地IP已经存在" />
+	<return value="add_server_speed:-102"  message="添加服务器的速度失败" />
+	<return value="add_server_speed:101"  message="添加服务器的速度成功" />
+	<return value="delete_server_speed:-103"  message="删除数据不存在" />
+	<return value="delete_server_speed:-102"  message="添加数据失败" />
+	<return value="delete_server_speed:101"  message="删除数据成功" />
+	<return value="edit_server_speed:101"  message="修改服务器速度成功" />
+	<return value="edit_server_speed:-103"  message="该信息已经存在" />
+	<return value="edit_server_speed:-105"  message="数据库错误" />
+</route>
+

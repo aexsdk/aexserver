@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ophone>	
+	<common-error>
+		<return value="-1"  message="Database connect error" />
+		<return value="-2" message="Execute database sql error"/>	
+		<return value="-3" message="Not found the action implementation file"/>
+		<return value="-4" message="No action found at request"/>
+	</common-error>
+  	<active>
+    	<return value="201"  message="激活成功" />
+    	<return value="202"  message="綁定手機成功"/>
+    	<return value="203"  message="，有效期至:"/>
+    	<return value="204"  message="激活手機成功，轉賬金額為："/>
+    	<return value="205"  message="激活手機成功，轉賬失敗，請聯系客服人員"/>
+    	<return value="-201" message="激活失敗，手機序列號不正確"/>
+    	<return value="-202" message="激活失敗，該手機未做出廠設置"/>
+    	<return value="-203" message="激活失敗，該手機已過激活日期"/>
+    	<return value="-204" message="激活失敗，該手機已經與其他手機號進行綁定"/>
+    	<return value="-205" message="激活失敗，該手機號已經與其他手機進行綁定"/>
+    	<return value="-206" message="激活失敗，請聯系客服人員"/>
+    	<return value="-207" message="執行激活操作失敗"/>
+    	<return value="-213" message="綁定失敗，綁定手機時密碼錯誤"/>
+    	<return value="-214" message="綁定失敗，請稍後再試"/>
+      <return value="-222" message="生成用户信息"/>
+      <return value="-224" message="手機號碼為空"/>
+      <return value="-225" message="gu_id為空"/>
+      <return value="-226" message="終端號碼為空"/>
+      <return value="-227" message="終端號碼密碼為空"/>
+      <return value="-228" message="系統錯誤，請稍後再試"/>
+    	<return value="-101" message="網絡錯誤，請稍後再試"/>
+    	<return value="-102" message="網絡錯誤，請稍後再試"/>
+    	<return value="-103" message="網絡錯誤，請稍後再試"/>  	
+  	</active>
+  	<query>
+  		<return value="251"  message="优会通余额为$balance $currencyType,免费通话时长为$FreeDuration。有效期至$validPeriod" />
+  		<return value="252"  message="優會通余額為:" />
+  		<return value="253"  message=",免費通話時長為:" />
+  		<return value="254"  message=",有效期至" />
+  		<return value="-251" message="查詢余額失敗，賬號或者密碼錯誤" />
+  		<return value="-252" message="查詢余額失敗，手機序列號不正確" />
+  		<return value="-253" message="查詢余額失敗，計費賬號已過期" />
+  	</query>
+  	<recharge>
+  		<return value="301"  message="优会通余额为100CNY,免费通话时长为0。有效期至2008-8-8" />
+  	  	<return value="302"  message="優會通余額為:" />
+  	  	<return value="303"  message=",免費通話時長為:" />
+  	  	<return value="304"  message="分鐘" />
+  	  	<return value="305"  message=",有效期至:" />
+  	  	<return value="306"  message="，本次充值金额为:" />
+  		<return value="-301" message="充值失敗，賬號或者密碼錯誤" />
+  		<return value="-302" message="充值失敗，計費賬號已過期" />
+  		<return value="-303" message="充值失敗，賬號不存在" />
+  		<return value="-304" message="充值失敗，該充值卡金額為0，充值失敗" />
+  		<return value="-305" message="充值失敗，該充值卡已經被使用" />
+  		<return value="-306" message="充值失敗，該充值卡代理商與帳號屬於不同的代理商" />
+  		<return value="-307" message="充值失敗，源帳號與目的帳號貨幣類型不一致" />
+  		<return value="-308" message="充值失败" />  		
+  		<return value="-309" message="充值失敗，扣減充值卡余額失敗，返回扣減錯誤代碼" />
+  	</recharge>
+  	<eload>
+  		<return value="331"  message="空中充值成功，现已充值50CNY到13145889545账号；账户余额为1000CNY." />
+  	  	<return value="332"  message="空中充值成功，現已充值" />
+  	  	<return value="333"  message="到手機號" />
+  	  	<return value="334"  message="；賬戶余額為" />
+  		<return value="-331" message="空中充值失败，请稍后再试" />
+  		<return value="-332" message="空中充值失敗，充值手機號碼不存在" />  		
+  		<return value="-333" message="空中充值失敗，請稍後再試" />
+  		<return value="-334" message="空中充值失败，Invalid password" />
+  		<return value="-335" message="空中充值失敗，該充值卡已經被使用" />
+  		<return value="-341" message="充值失败，计费账号可能被停用" />	
+  		<return value="-343" message="充值失败" />
+  		<return value="-344" message="空中充值失敗，請稍後再試" />
+  		<return value="-345" message="空中充值失敗，請稍後再試" />
+  		<return value="-347" message="空中充值失敗，請稍後再試" />
+  		<return value="-346" message="空中充值失敗，請稍後再試" />
+  		<return value="-348" message="空中充值失敗，請稍後再試" />
+  	</eload>
+  	<mpass>
+  		<return value="351"  message="修改密碼成功，修改後的密碼為:" />
+    	<return value="-351" message="執行修改密碼失敗"/>
+    	<return value="-352" message="修改密碼失敗，輸入原密碼錯誤"/>
+    	<return value="-353" message="修改密碼失敗，修改WFS系統密碼失敗"/>
+    	<return value="-354" message="修改密碼失敗，執行數據庫失敗"/>
+    	<return value="-355" message="修改密碼失敗，修改billing系統密碼失敗"/>
+    	<return value="-101" message="網絡錯誤，請稍後再試"/>
+    	<return value="-102" message="網絡錯誤，請稍後再試"/>
+    	<return value="-103" message="網絡錯誤，請稍後再試"/>  	
+  	</mpass>
+	<unbind>
+    	<return value="401"  message="取消手機綁定成功" />
+    	<return value="-401" message="操作失敗，手機序列號不存在"/>
+    	<return value="-402" message="操作失敗，原密碼不正確"/>
+    	<return value="-403" message="操作失敗，手機號碼與激活時的綁定信息不匹配"/>
+    	<return value="-404" message="操作失敗，執行數據失敗"/>
+    	<return value="-405" message="該功能尚未開通"/>
+  	</unbind>
+  	<callback>
+  		<return value="451"  message="呼叫成功" />
+  		<return value="-451" message="賬號已經過期"/>    	
+      <return value="-452" message="賬號和密碼不匹配"/>
+	    <return value="-453" message="操作失敗，原密碼不正確"/>
+	    <return value="-454" message="呼叫限制"/>
+	    <return value="-455" message="餘額不足"/>
+	    <return value="-456" message="被叫無應答，請稍後再試"/>
+	    <return value="-458" message="線路忙或者號碼有誤，請查證後再試"/>
+	 </callback>
+  	<follow_me>
+  		<return value="501"  message="呼叫轉移成功: 由  " />
+  		<return value="502"  message=" 到 " />
+  		<return value="-501" message="請啟動FollowMe功能"/>
+    	<return value="-502" message="設置失敗"/>
+	</follow_me>
+	<cfollow_me>
+  		<return value="551"  message="解除呼叫轉移成功: 由  " />
+  		<return value="552"  message=" 到 " />
+  		<return value="-551" message="請啟動FollowMe功能"/>
+    	<return value="-552" message="取消失敗"/>
+	</cfollow_me>
+	<grate>
+  		<return value="521"  message="主叫号码:被叫号码:本次通话的费率为:0.1CNY/分钟" />
+  		<return value="522"  message="主叫号码:" />
+  		<return value="523"  message=",被叫号码:" />
+  		<return value="524"  message=".本次通话的费率为:" />
+  		<return value="525"  message="/分钟." />
+  		<return value="-521" message="账号不存在"/>
+    	<return value="-552" message="对应的费率不存在"/>
+    	<return value="-553" message="对应的费率不存在"/>
+	</grate>
+</ophone> 

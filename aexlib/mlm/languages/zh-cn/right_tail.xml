@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<right_tail>
+ 	<return value="-101"  message="手机账号验证失败，代码［%d］。" />
+	<return value="-102"  message="用户ID不存在，代码［%d］。" />	
+</right_tail>

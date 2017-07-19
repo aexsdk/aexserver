@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<query>
+	<return value="101"  message="已经取消号码%2$s的绑定。&#13;&#10;代码[%1$s]"/>
+</query>

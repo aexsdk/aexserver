@@ -1,0 +1,21 @@
+/*
+ * qWikiOffice Desktop 1.0
+ * Copyright(c) 2007-2008, Integrated Technologies, Inc.
+ * licensing@qwikioffice.com
+ *
+ * http://www.qwikioffice.com/license
+ */
+
+.m-carriers-icon { background-image: url(images/icon.ico) !important; }
+.m-carriers-shortcut-icon { background-image: url(images/shortcut-icon.png) !important; }
+.ez-carriers-icon { background-image:url(images/wfslog48x48.png); background-repeat:none; border:0 none; height:48px; width:48px; }
+.ez-products-icon { background-image:url(images/wfslog48x48.png); background-repeat:none; border:0 none; height:48px; width:48px; }
+.ez-devices-icon { background-image:url(images/wfslog48x48.png); background-repeat:none; border:0 none; height:48px; width:48px; }
+.ez-test-icon { background-image:url(images/wfslog48x48.png); background-repeat:none; border:0 none; height:48px; width:48px; }
+
+.prev-link-item-icon { float: left; }
+.prev-link-item-txt { float: left; padding-top:10px; }
+.pref-percent-field { background:#ffffff url(images/percent-icon.gif) no-repeat right center; }
+.qo-admin-add { background-image:url(images/icons/application_add.png; }
+.qo-admin-delete { background-image:url(images/icons/application_delete.png);}
+.qo-admin-edit { background-image:url(images/icons/application_edit.png); }

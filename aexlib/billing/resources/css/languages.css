@@ -1,0 +1,44 @@
+/* Ext.ux.IconCombo mandatory styles */ 
+.x-icon-combo-icon { 
+    background-repeat: no-repeat; 
+    background-position: 0 50%; 
+    width: 18px; 
+    height: 14px; 
+} 
+.x-icon-combo-input { 
+    padding-left: 25px; 
+} 
+.x-form-field-wrap .x-icon-combo-icon { 
+    top: 3px; 
+    left: 8px; 
+} 
+
+.x-icon-combo-item { 
+    background-repeat: no-repeat; 
+    background-position: 3px 50%; 
+    padding-left: 24px; 
+} 
+
+.x-form-field {
+	font:12px;
+}
+
+.x-flag-cn { 
+    background-image: url(../images/flags/png/cn.png); 
+} 
+.x-flag-hk { 
+    background-image: url(../images/flags/png/hk.png); 
+} 
+.x-flag-tw { 
+    background-image: url(../images/flags/png/tw.png); 
+} 
+.x-flag-us { 
+    background-image: url(../images/flags/png/us.png); 
+} 
+.x-flag-de {
+     background-image: url(../images/flags/png/de.png); 
+} 
+.x-flag-fr { 
+    background-image: url(../images/flags/png/fr.png); 
+} 
+

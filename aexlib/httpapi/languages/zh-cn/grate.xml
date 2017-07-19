@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <grate>
+  		<return value="521"  message="该号码的费率为:%2$s%3$s/分钟;代码［%1$d］" />
+  		<return value="522"  message="主叫号码:" />
+  		<return value="523"  message=",被叫号码:" />
+  		<return value="524"  message=".本次通话的费率为:" />
+  		<return value="525"  message="/分钟." />
+  		<return value="-101" message="查询失败，账号不存在,代码［%1$d］"/>
+    	<return value="-102" message="查询失败，对应的费率不存在,代码［%1$d］"/>
+    	<return value="-111" message="查询失败，账号不存在,代码［%1$d］"/>
+    	<return value="-112" message="主叫号码对应的费率不存在,代码［%1$d］"/>
+    	<return value="-121" message="查询失败，账号不存在,代码［%1$d］"/>
+    	<return value="-122" message="被叫号码对应的费率不存在,代码［%1$d］"/>
+   </grate>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<query>
+	<return value="101"  message="号码%2$s的账户余额是%3$s元。 代码[%1$s]"/>
+	<return value="-101"  message="查询余额失败，主叫号码未绑定系统帐号。代码［%1$d］。" />
+	<return value="-102" message="查询余额失败，主叫号码绑定帐号错误。代码［%1$d］。" />
+</query>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mpass>
+  		<return value="101"  message="修改密码成功，代码［%1$d］ " />
+    	<return value="-101" message="修改密码失败,代码［%1$d］ "/>
+    	<return value="-102" message="修改密码失败,代码［%1$d］ "/>
+    	<return value="-103" message="修改密码失败,代码［%1$d］ "/>  	
+</mpass>

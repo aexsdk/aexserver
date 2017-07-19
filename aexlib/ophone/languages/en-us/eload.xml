@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <eload>
+  		<return value="331"  message="E-load success，Now cost %2$s%5$s hand immediately for %3$s account, Current account balance is 4$s%5$s。Return code［%1$d］" />
+  		<return value="-331" message="E-load failure，please try again later。Return code" />
+  		<return value="-332" message="E-load failure，invalid phoneNumber。Return code［%1$d］。" />  		
+  		<return value="-333" message="E-load failure，please try again later。Return code［%1$d］。" />
+  		<return value="-334" message="E-load failure，incorrect password。Return code［%1$d］。" />
+  		<return value="-335" message="E-load failure，recharge-pin  used。Return code［%1$d］。" />
+  		<return value="-341" message="E-load failure，Account expired。Return code［%1$d］。" />	
+  		<return value="-343" message="E-load failure，please try again later。Return code［%1$d］。" />
+  		<return value="-344" message="E-load failure，please try again later。Return code［%1$d］。" />
+  		<return value="-345" message="E-load failure，please try again later。Return code［%1$d］。" />
+  		<return value="-347" message="E-load failure，please try again later。Return code［%1$d］。" />
+  		<return value="-346" message="E-load failure，please try again later。Return code［%1$d］。" />
+  		<return value="-348" message="E-load failure，please try again later。Return code［%1$d］。" />
+  	</eload>

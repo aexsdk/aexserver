@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mpass>
+  		<return value="351"  message="修改密码成功，修改后的密码为:[%2$s];代码［%1$d］ " />
+    	<return value="-351" message="执行修改密码失败,代码［%1$d］ "/>
+    	<return value="-352" message="修改密码失败，输入原密码错误,代码［%1$d］ "/>
+    	<return value="-354" message="修改密码失败，执行数据库失败,代码［%1$d］ "/>
+    	<return value="-355" message="修改密码失败，修改billing系统密码失败,代码［%1$d］ "/>
+    	<return value="-101" message="系统错误，稍后再试,代码［%1$d］ "/>
+    	<return value="-102" message="系统错误，稍后再试,代码［%1$d］ "/>
+    	<return value="-103" message="系统错误，稍后再试,代码［%1$d］ "/>  	
+</mpass>

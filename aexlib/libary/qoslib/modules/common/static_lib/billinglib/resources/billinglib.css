@@ -1,0 +1,15 @@
+.m-plugin-icon { background-image: url(images/appstore16x16.png) !important; }
+.m-plugin-shortcut-icon { background-image: url(images/appstore48x48.png) !important; }
+
+.prev-link-item-icon { float: left; }
+.prev-link-item-txt { float: left; padding-top:10px; }
+.pref-percent-field { background:#ffffff url(images/percent-icon.gif) no-repeat right center; }
+
+.ez-normal-icon { background-image:url(images/chart48x48.png); }
+.ez-traffic-icon { background-image:url(images/chart2_48x48.png);  }
+.ez-recharge-icon { background-image:url(images/currency48x48.png);  }
+
+.m-add { background-image:url(images/icons/application_add.png; }
+.m-delete { background-image:url(images/icons/application_delete.png);}
+.m-edit { background-image:url(images/icons/application_edit.png); }
+.m-sound { background-image:url(images/sound.png); }

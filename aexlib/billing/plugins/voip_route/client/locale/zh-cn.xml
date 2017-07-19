@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<route>
+	<return value="RouteTitle" message="路由管理" />
+	<return value="AddAgentTitle" message="添加代理商" />
+	<return value="AgentTreeTitle" message="代理商树" />
+	<return value="AddAgent" message="添加代理商操作员" />
+	<return value="ActionText" message="功能" />
+	<return value="Query" message="设备查询" />
+	<return value="UnBind" message="取消手机号码绑定" />
+	<return value="UnActive" message="取消手机激活" />
+	<return value="Rechage" message="终端号码充值" />
+	<return value="GetCDR" message="查询终端号码CDR" />
+	<return value="Close" message="关闭" />
+	<return value="Delete" message="删除" />
+	<return value="Save" message="保存" />
+	<return value="Create" message="创建" />
+	<return value="AddAgent" message="添加代理商" />
+	<return value="Operator" message="操作员管理" />
+	<return value="AddOperator" message="添加操作员" />
+	<return value="MPassword" message="修改密码" />
+	<return value="Exit" message="退出" />
+	<return value="AgentID" message="代理商ID" />
+	<return value="Agent_Name" message="代理商名称" />
+	<return value="Password" message="密码" />
+	<return value="Caption" message="别名" />
+	<return value="HireBalance" message="" />
+	<return value="Balance" message="充值余额" />
+	<return value="RealBalance" message="实时余额" />
+	<return value="LowBalance" message="" />
+	<return value="IsReal" message="是否开启实时扣费" />
+	<return value="CurrencyType" message="货币类型" />
+	<return value="agtCurrencyType" message="代理商货币类型" />
+	<return value="EMail" message="邮箱地址" />
+	<return value="ChargeScheme" message="计费方案" />
+	<return value="Default_AgentCS" message="默认计费方案" />
+	<return value="Address" message="地址" />
+	<return value="Leader" message="所有人" />
+	<return value="Connect" message="联系方式" />
+	<return value="Prefix" message="前缀" />
+	<return value="Note" message="注释" />
+	<return value="FeesInformation" message="费率信息" />
+	<return value="SuperiorAgnet" message="上级代理商" />
+	<return value="CurrencyType" message="货币类型" />
+	<return value="agtCurrencyType " message="默认货币类型" />
+		
+	<return value="UserName" message="用户名" />
+	<return value="Password" message="密码" />
+	<return value="ConfirmPassword" message="重复密码 " />
+	<return value="Email" message="邮件地址" />
+	<return value="UserName" message="用户名" />
+	<return value="Sex" message="性别" />
+	<return value="WhereEx" message="查询条件: " />
+	<return value="AgentID" message="上级代理商" />
+	<return value="BillingTab" message="计费信息" />
+	<return value="DeviceTab" message="设备信息" />
+	<return value="UserTab" message="用户信息" />
+	<return value="QueryTypeText" message="请选择查询条件..." />
+	<return value="AgentCSText" message="请选择代理商计费方案" />
+	<return value="UserCSText" message="请选择用户计费方案" />
+	<return value="AddOperator" message="您是否要为该代理商创建操作员" />
+	  <return value="Html" message="系统提示信息:确定要删除所选的记录吗?" />
+</route>

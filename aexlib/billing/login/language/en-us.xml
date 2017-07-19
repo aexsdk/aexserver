@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<login>
+	<return value="win_title"  message="Login" />
+	<return value="btn_login"  message="Login" />
+	<return value="fl_language"  message="Language" />
+	<return value="fl_user_name"  message="User name" />
+	<return value="fl_password"  message="Password" />
+	<return value="flc_save"  message="Save user profile" />
+	<return value="flc_mode"  message="Full screen mode" />
+	<return value="tt_EmailTypeText"  message="Please input account or email" />
+	<return value="tt_PassTypeText"  message="please input password" />
+	<return value="msg_Pls_select_lang"  message="please select language" />
+	<return value="msg_MustInput"  message="You must input user name and password for login." />
+	<return value="msg_Plswaiting"  message="Please waiting..." />
+	<return value="msg_Redirecting"  message="Loading system..." />
+	<return value="tt_ResalerText" message="Please input resaler ID" />
+	<return value="fl_resaler" message="Resaler" />
+	<return value="login_fail_code" message="Login fail,Code is %d。" />
+	<return value="fl_signed_code" message="Code" />
+	<return value="tt_signed_codeText" message="Please input code" />	
+</login>

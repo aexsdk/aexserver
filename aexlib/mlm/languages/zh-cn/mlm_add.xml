@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mlm_add>
+	<return value="221"  message="添加成功。" />
+	<return value="-221"  message="手机号码%2$s已经存在。代码［%1$d］。" />
+	<return value="-222"  message="添加用户%2$s表错误。代码［%1$d］。" />
+	<return value="-223"  message="添加root信息表错误。代码［%1$d］。"/>
+	<return value="-224"  message="添加管理员销售业绩错误。代码［%1$d］。" />
+</mlm_add>

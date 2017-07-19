@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfollow_me>
+  		<return value="551"  message="Remove call transferred successfully: original phoneNumber:[%2$s],current phoneNumber:[%3$s]。Return code［%1$d］  " />
+  		<return value="-551" message="Please start FollowMe function。Return code［%1$d］"/>
+    	<return value="-552" message="Cancel the failure，Return code［%1$d］"/>
+    	<return value="-503" message="Cancel the failure，The functional configuration information does not exist, function not open。Return code［%1$d］"/>
+</cfollow_me>

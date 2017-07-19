@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<financial>
+	<return value="SZX"  	message="移动充值卡" />
+	<return value="UNICOM"  message="联通充值卡" />
+	<return value="Eload"  	message="空中充值" />
+	<return value="Hire"  	message="租期续费" />
+	<return value="FRechrge"  	message="首次充值" />
+	<return value="SRechrge"  	message="非首次充值" />
+</financial>

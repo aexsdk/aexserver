@@ -1,0 +1,63 @@
+/*OEM*/
+.x-login-logo{
+	background:transparent url(http://www.eztor.com/advs/pics/20100921/1285075601.jpg) no-repeat;
+}
+
+/*upload*/
+.upload-icon{
+	background:transparent url(images/sound_add.png) no-repeat;
+}
+/*Eztor override*/
+.x-tree-node {
+  font: normal 12px tahoma,arial,verdana,sans-serif;
+}
+
+.ux-shortcut-item {
+  font: normal 12px tahoma,arial,verdana,sans-serif;
+}
+
+.ux-start-menu-tl .x-window-header {
+  font: bold 12px tahoma,arial,verdana,sans-serif;
+}
+
+.ez-label{
+	font: normal 12px tahoma,arial,verdana,sans-serif;
+	text-align: center;
+	vertical-align:middle;
+}
+
+.button{
+	font: normal 12px tahoma,arial,verdana,sans-serif;
+}
+
+.x-menu-list-item {
+	font: normal 12px tahoma,arial,verdana,sans-serif;
+}
+
+.x-btn-text{
+	font: normal 12px tahoma,arial,verdana,sans-serif;
+}
+
+.x-form-text{
+	font: normal 12px tahoma,arial,verdana,sans-serif;
+}
+.x-grid3-hd-row td, .x-grid3-row td, .x-grid3-summary-row td{
+	font: normal 12px tahoma,arial,verdana,sans-serif;
+}
+
+.x-toolbar label{
+	font: normal 12px tahoma,arial,verdana,sans-serif;
+}
+
+.x-btn button{
+	font: normal 12px tahoma,arial,verdana,sans-serif;
+}
+
+.x-window-header-text{
+	font: normal 12px tahoma,arial,verdana,sans-serif;
+}
+
+.x-toolbar td, .x-toolbar span, .x-toolbar input, .x-toolbar div, .x-toolbar select, .x-toolbar label{
+	font: normal 12px tahoma,arial,verdana,sans-serif;
+}
+

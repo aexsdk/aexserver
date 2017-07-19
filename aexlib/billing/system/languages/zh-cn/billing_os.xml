@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billing_os>
+	<return value="Edit"  message="编辑" />
+	<return value="Copy"  message="复制" />
+	<return value="Paste"  message="粘贴" />
+	<return value="Ok"  message="确定" />
+	<return value="Cancel"  message="取消" />
+	<return value="Delete"  message="删除" />
+	<return value="Save"  message="保存" />
+	<return value="Close"  message="关闭" />
+	<return value="Exit"  message="退出" />
+	<return value="Quit"  message="退出" />
+	<return value="Start"  message="开始" />
+	<return value="Back"  message="后退" />
+	<return value="Next"  message="前进" />
+	<return value="Login"  message="登录" />
+	<return value="Logoff"  message="注销" />
+	<return value="Logout"  message="注销" />
+	<return value="ConnectServerError"  message="连接服务器错误，请重新登录！" />
+	<return value="Error"  message="错误" />
+	<return value="Warning"  message="警告" />
+	<return value="Hint"  message="提示" />
+	<return value="Finish" message="完成" />
+	<return value="Finished" message="已经完成" />
+	<return value="Loading" message="正在调入" />
+	<return value="Loaded" message="加载完成" />
+	<return value="Ready" message="就绪" />
+	<return value="saving" message="正在保存" />
+	<return value="prev" message="&lt; 上一步" />
+	<return value="next" message="下一步 &gt;" />
+	<return value="Wizard" message="向导" />
+	<return value="Welcome" message="欢迎" />
+	<return value="wiz_step" message="第{0}步，共{1}步: {2}" />
+	<return value="From" message="从" />
+	<return value="To" message="到" />
+	<return value="is_time" message="入库时间" />
+	<return value="os_time" message="出库时间" />
+	<return value="active_time" message="激活时间" />
+	<return value="Refreshing" message="正在刷新..." />
+	<return value="BlankText" message="请务必填写该信息" />
+	<return value="RmptyText" message="请选择..." />
+	
+	<return value="report_error_mail_body"  message="计费系统出现错误，发送的请求信息是: %s " />
+	<return value="report_warning_mail_body"  message="计费系统出现警告，发送的请求信息是: %s " />
+	<return value="undefine_page"  message="请求未定义的页面，打开主页面" />
+	<return value="load_action_no_module_id"  message="请求Load操作但是没有提供模块标识" />
+	<return value="connect_action_no_action_or_module_id"  message="请求Connet操作但是没有提供模块标识或者操作代码" />
+	<return value="login_action_no_module_id"  message="请求登录操作但是没有提供模块标识" />
+	<return value="Loading_extjs_file" message="正在加载脚本语言库..." />
+	<return value="Loading_extcss_file" message="正在加载样式库..." />
+	<return value="Loading_userjs_file" message="正在加载用户脚本语言..." />
+	<return value="Loading_usercss_file" message="正在加载用户样式..." />
+	<return value="SessionExprid" message="您的登录已经过期，请重新登录。" />
+
+	<return value="login_no_module" message="系统错误，登录操作没有提供操作名称！" />
+	<return value="login_sp_return_not_array" message="登录的函数返回值不是数组！" />
+	<return value="login_fail_code" message="登录错误，代码[%d]!" />
+	<return value="login_fail_signed_code_error" message="登录错误，验证码不匹配！"></return>
+
+	<return value="LoadingWallpaper" message="正在装入墙纸..." />
+	<return value="plswait" message="请稍候..." />
+	<return value="WallpaperLoaded" message="墙纸调入完成" />
+	<return value="Add_member_error" message="添加操作员失败！" />
+	<return value="CloseAll" message="关闭所有窗口" />
+	<return value="MinimizeAll" message="最小化所有窗口" />
+	<return value="Tile" message="平铺" />
+	<return value="Cascade" message="级联" />
+	<return value="Checkerboard" message="棋盘式" />
+	<return value="SnapFit" message="填充" />
+	<return value="SnapFitVertical" message="垂直填充" />
+	<return value="Restore" message="恢复" />
+	<return value="Minimize" message="最小化"  />
+	<return value="Maximize" message="最大化" />
+	<return value="update_error" message="Update error,Response is empty!" />
+</billing_os>
+

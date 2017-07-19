@@ -1,0 +1,68 @@
+{
+   "launcherText": "System Administer"
+   , "launcherTooltip": "<b>System Administer</b><br />Allows you to modify group,account,module and privilege"
+   , "Home": "Home"
+   , "data": {
+		"nav": [
+		     {
+		     	"cls": "qo-admin-groups-icon"
+		     	, "id": "viewGroups"
+		     	, "text": "Groups"
+		     	, "description": "Manage your desktp's groups"
+		     }
+		     , {
+		        "cls": "qo-admin-members-icon"
+		        , "id": "viewMembers"
+		        , "text": "Members"
+		        , "description": "Manage your desktop's members"
+		     }
+		     , {
+		        "cls": "qo-admin-privileges-icon"
+		        , "id": "viewPrivileges"
+		        , "text": "Privileges"
+		        , "description": "Manage your desktop's privileges"
+		     }
+		]
+   }
+   ,"members":"Members"
+   ,"groups":"Groups"
+   ,"privileges":"Privileges"
+   ,"field":{
+   		"id":"ID"
+   		,"first_name":"First Name"
+   		,"last_name":"Last Name"
+   		,"email":"EMail"
+   		,"locale":"Locale"
+   		,"group":"Group"
+   		,"resaler":"Resaler"
+   		,"active":"Active"
+   		,"save_config":"Save Changes"
+   		,"refresh":"Refresh"
+   		,"add":"Add"
+   		,"add_new_member":"Add a new member"
+   		,"Delete":"Delete"
+   		,"delete_selected":"Delete selected"
+   		,"refreshing":"Refresh..."
+   		,"view":"View"
+   		,"edit":"Edit"
+   		,"add_new_group":"Add a new group"
+   		,"password":"Password"
+   		,"confirm_password":"Confirm password"
+   	}
+   	,"no_members_to_display":"No members to display..."
+   	,"member_add":{
+   		"title":"Add a new member"
+   		,"first_page":"Input member parameters"
+   		,"first_page_info":"Please input member information.Only letters, underscores and hyphens are allowed."
+   		,"Input_account_info" : "Input member information"
+   		,"input_password":"Input password"
+   		,"pls_input_password":"Please input password and confirm password."
+   		,"pls_select_group":"Please select group for the new member."
+   		,"select_group":"Select a group"
+   		,"create_member":"Create Member"
+   		,"page_welcome":"Welcome use this wizard for add a new member.<br><li>1. input member information</li><li>2. input password</li><li>3.Select a group</li><li>4.Select a resaler</li>"
+   		,"select_resaler":"Select resaler"
+   		,"pls_select_resaler":"Please select a resaler or carrier for the new user."
+   		,"pls_create_number":"You already provide all new member parameters.Click finish button for create the new member."
+   	}
+}

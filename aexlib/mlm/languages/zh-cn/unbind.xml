@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unbind>
+	<return value="101"  message="号码%s与本机已经解除绑定。代码［%d］。" />
+	<return value="-101"  message="解除绑定失败，号码%s与本机未作绑定，或者密码不正确。代码［%d］。" />
+</unbind>

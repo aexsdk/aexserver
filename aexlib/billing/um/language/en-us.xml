@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<um>
+	<return value="win_title"  message="User management" />
+	<return value="menu_home"  message="Home" />
+	<return value="menu_cdr"  message="Call records" />
+	<return value="menu_finance"  message="Financial" />
+	<return value="menu_customers"  message="Customers" />
+	<return value="menu_dialout"  message="Dialout" />
+	<return value="menu_exit"  message="退出" />
+
+	<return value="fd_group"  message="群组" />
+	<return value="fd_name"  message="姓名" />
+	<return value="fd_phoneno"  message="电话号码" />
+	<return value="fd_email"  message="邮箱" />
+	<return value="fd_company"  message="公司" />
+	<return value="fd_remark"  message="备注" />
+	<return value="fd_sex"  message="性别" />
+	<return value="fd_fax"  message="传真" />
+	<return value="fd_alias"  message="称谓" />
+	<return value="fd_office_no"  message="固话" />
+	<return value="fd_group_call"  message="群呼" />
+	<return value="fd_rate"  message="费率" />
+	
+	<return value="action_list"  message="操作"/>
+	<return value="batch_import"  message="批量导入客户列表"/>
+	<return value="batch_export"  message="批量导出客户列表"/>
+	<return value="phone_list"  message="电话列表" />
+	<return value="sms"  message="短信类容" />
+	<return value="add_customer"  message="添加客户信息" />
+	<return value="is_sms"  message="是否发送短信" />
+	<return value="dialout_list"  message="拨号列表" />
+	<return value="recv_list"  message="客服列表" />
+	<return value="CallerID"  message="显示号码" />
+	<return value="CheckCallerID"  message="验证主叫" />
+	<return value="ivr_file1"  message="IVR文件一" />
+	<return value="ivr_file2"  message="IVR文件二" />
+	<return value="ivr_file3"  message="IVR文件三" />
+	<return value="submit"  message="提交" />
+	<return value="reset"  message="重置" />
+	<return value="empty_text"  message="请选择IVR文件..." />
+	<return value="wait_msg"  message="正在上传IVR文件,请稍后..." />
+	<return value="page_size"  message="每页:" />
+	<return value="fd_userid"  message="用户帐号" />
+	<return value="fd_name"  message="姓名" />
+	<return value="fd_resaler"  message="经销商" />
+	<return value="fd_caller"  message="主叫号码" />
+	<return value="fd_status"  message="状态" />
+	<return value="fd_balance"  message="余额" />
+	<return value="fd_billing"  message="资费套餐" />
+	<return value="fd_active_time"  message="激活时间" />
+	<return value="fd_register"  message="注册时间" />
+	<return value="fd_first_call"  message="第一次呼叫时间" />
+	<return value="fd_last_call"  message="最后一次呼叫时间" />
+	
+	<return value="fd_recharge_time"  message="充值时间" />
+	<return value="fd_type"  message="类型" />
+	<return value="fd_old_balance"  message="充前余额" />
+	<return value="fd_cost"  message="金额" />
+	<return value="fd_new_balance"  message="充后余额" />
+	<return value="fd_src_pin"  message="源帐号" />
+	<return value="fd_realcost"  message="实付金额" />
+	<return value="fd_remark"  message="备注" />
+	
+	<return value="fd_start_time"  message="呼叫时间" />
+	<return value="fd_callee"  message="被叫号码" />
+	<return value="fd_duration"  message="时长" />
+	<return value="fd_fee"  message="话费" />
+	<return value="fd_play"  message="播放录音" />
+	<return value="fd_filtter"  message="查询条件" />
+	<return value="fd_query"  message="查询" />
+	<return value="fd_realtime"  message="当日" />
+	<return value="fd_history"  message="历史" />
+	<return value='bt_recharge' message='充值' />
+	<return value='bt_service_list' message='我的客服' />
+	<return value='bt_modify_account' message='修改' />
+	
+	<return value="fd_recharge_title"  message="充值功能" />
+	<return value="fd_recharge_card"  message="充值卡充值" />
+	<return value="fd_recharge_ebank"  message="网银在线充值" />
+	<return value="fd_recharge_pin"  message="充值卡卡号" />
+	<return value="fd_recharge_pwd"  message="充值卡密码" />
+	<return value="fd_recharge_value"  message="充值金额(最小额度1元)" />
+	<return value="Close"  message="关闭" />
+	<return value="Delete"  message="删除" />
+	<return value="Recharge"  message="充值" />
+	
+	<return value="gp_customer_id"  message="客服ID" />
+	<return value="gp_pno"  message="客服号码" />
+	<return value="gp_customer_name"  message="客服姓名" />
+	<return value="gp_server_title"  message="客户功能" />
+	<return value="gp_edit"  message="编辑" />
+	<return value="gp_del"  message="删除" />
+	<return value="gp_add"  message="添加" />
+	<return value="ActionText"  message="功能" />
+	<return value="fd_add_server"  message="添加客户人员"/>
+	<return value="delete_html"  message="是不是删除所选的内容？"/>
+</um>
+

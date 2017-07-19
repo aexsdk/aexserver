@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billing_os>
+	<return value="Edit"  message="Edit" />
+	<return value="Copy"  message="Copy" />
+	<return value="Paste"  message="Paste" />
+	<return value="Ok"  message="Ok" />
+	<return value="Cancel"  message="Cancel" />
+	<return value="Delete"  message="Delete" />
+	<return value="Save"  message="Save" />
+	<return value="Close"  message="Close" />
+	<return value="Exit"  message="Exit" />
+	<return value="Quit"  message="Quit" />
+	<return value="Start"  message="Start" />
+	<return value="Back"  message="Back" />
+	<return value="Next"  message="Next" />
+	<return value="Login"  message="Login" />
+	<return value="Logout"  message="Logout" />
+	<return value="Logoff"  message="Logoff" />
+	<return value="ConnectServerError"  message="Have a error when Connect server,Pls login again！" />
+	<return value="Error"  message="Error" />
+	<return value="Warning"  message="Warning" />
+	<return value="Hint"  message="Hint" />
+	<return value="Finish" message="finish" />
+	<return value="Finished" message="finished" />
+	<return value="Loading" message="Loading " />
+	<return value="Loaded" message="loaded" />
+	<return value="Ready" message="Ready" />
+	<return value="saving" message="Saving..." />
+	<return value="prev" message="&lt; Previous" />
+	<return value="next" message="Next &gt;" />
+	<return value="Wizard" message="Wizard" />
+	<return value="Welcome" message="Welcome" />
+	<return value="wiz_step" message="Step {0} of {1}: {2}" />
+	<return value="From" message="From" />
+	<return value="To" message="To" />
+	<return value="is_time" message="Instock Time" />
+	<return value="os_time" message="Outsotock Time" />
+	<return value="active_time" message="Active Time" />
+	<return value="Refreshing" message="Refreshing..." />
+
+	<return value="report_error_mail_body"  message="计费系统出现错误，发送的请求信息是: %s " />
+	<return value="report_warning_mail_body"  message="计费系统出现警告，发送的请求信息是: %s " />
+	<return value="undefine_page"  message="请求未定义的页面，打开主页面" />
+	<return value="load_action_no_module_id"  message="Request not provide module id at load action." />
+	<return value="connect_action_no_action_or_module_id"  message="请求Connet操作但是没有提供模块标识或者操作代码" />
+	<return value="login_action_no_module_id"  message="请求登录操作但是没有提供模块标识" />
+	<return value="Loading_extjs_file" message="Loading scripts libary..." />
+	<return value="Loading_extcss_file" message="Loading styles libary..." />
+	<return value="Loading_userjs_file" message="Loading user's scripts..." />
+	<return value="Loading_usercss_file" message="Loading user's styles..." />
+	<return value="SessionExprid" message="Session is exprid,Please relogin." />
+
+	<return value="login_no_module" message="System error,Login action have not provide module parameter！" />
+	<return value="login_sp_return_not_array" message="Login function return value is not array！" />
+	<return value="login_fail_code" message="Login fail，code[%d]!" />
+	<return value="login_fail_signed_code_error" message="Login fail,Th signed code error!"></return>
+
+	<return value="LoadingWallpaper" message="Loading wallpaper..." />
+	<return value="plswait" message="please waiting..." />
+	<return value="WallpaperLoaded" message="wallpaper loaded" />
+	<return value="Add_member_error" message="add member error！" />
+	<return value="CloseAll" message="Close all" />
+	<return value="MinimizeAll" message="Minimize all" />
+	<return value="Tile" message="Tile" />
+	<return value="Cascade" message="Cascade" />
+	<return value="Checkerboard" message="Checkerboard" />
+	<return value="SnapFit" message="Snap fit" />
+	<return value="SnapFitVertical" message="Snap fit vertical" />
+	<return value="Restore" message="Restore" />
+	<return value="Minimize" message="Minimize"  />
+	<return value="Maximize" message="Maximize" />
+	<return value="update_error" message="Update error,Response is empty!" />
+</billing_os>
+

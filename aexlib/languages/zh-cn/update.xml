@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<update>
+	<return value="-101"  message="更新操作失败，代码［%d］。" />
+</update>

@@ -1,0 +1,39 @@
+{
+   "launcherText": "终端帐号"
+   , "launcherTooltip": "<b>终端帐号</b><br />允许您修改和管理终端帐号。"
+   , "Home": "主页"
+      , "data": {
+		"nav": [
+		     {
+		     	"cls": "qo-admin-groups-icon"
+		     	, "id": "viewGroups"
+		     	, "text": "用户组"
+		     	, "description": "管理系统用户组"
+		     }
+		     , {
+		        "cls": "qo-admin-members-icon"
+		        , "id": "viewMembers"
+		        , "text": "用户"
+		        , "description": "管理系统登录用户"
+		     }
+		     , {
+		        "cls": "qo-admin-privileges-icon"
+		        , "id": "viewPrivileges"
+		        , "text": "权限组"
+		        , "description": "管理用户权限组"
+		     }
+		     , {
+		        "cls": "qo-admin-signups-icon"
+		        , "id": "viewSignups"
+		        , "text": "注册用户"
+		        , "description": "管理系统注册用户"
+		     }
+		]
+   }
+   ,"windowTitle" : "呼叫路由管理系统"
+   ,"Html" : "系统提示信息:确定要删除所选的记录吗?"
+   ,"Delete" : "删除"
+   ,"Close" : "关闭"
+   ,"DeleteText": "删除数据"
+   ,"AddGateWay": "添加落地网关信息"
+}

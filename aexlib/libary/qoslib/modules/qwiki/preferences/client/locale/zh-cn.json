@@ -1,0 +1,100 @@
+{
+   "launcher": {
+   	"text": "首选项"
+      , "tooltip": "<b>首选项</b><br />允许您修改您的桌面主题、背景以及其他参数"
+   }
+   , "button": {
+   	"back": {
+   		"text": "回退"
+   	}
+   	, "backgroundColor": {
+   		"text": "背景颜色"
+   	}
+   	, "close": {
+         "text": "关闭"
+   	}
+   	, "fontColor": {
+         "text": "字体颜色"
+      }
+
+   	, "next": {
+   		"text": "前进"
+   	}
+   	, "save": {
+   		"text": "保存"
+   	}
+   }
+   , "connection": {
+   	"lost": {
+	      "msg": "连接服务器失败"
+	      , "title": "错误"
+	   }
+   }
+   , "error": {
+   	"msg": "服务器发生错误。"
+   	, "title": "错误"
+   }
+   , "data": {
+   	"nav": [
+         {
+         	"cls": "icon-pref-shortcut"
+         	, "id": "viewShortcuts"
+         	, "text": "桌面快捷键"
+         	, "description": "选择那些应用模块会出现在您的桌面上。"
+         }
+         , {
+            "cls": "icon-pref-autorun"
+            , "id": "viewAutoRun"
+            , "text": "自动运行"
+            , "description": "选择那些应用模块会在登录时自动运行。"
+         }
+         , {
+            "cls": "icon-pref-quickstart"
+            , "id": "viewQuickstart"
+            , "text": "快速启动"
+            , "description": "选择那些应用模块会在快速启动菜单出现。"
+         }
+         , {
+            "cls": "icon-pref-appearance"
+            , "id": "viewAppearance"
+            , "text": "窗口颜色和外观"
+            , "description": "修改窗口的颜色和外观。"
+         }
+         , {
+            "cls": "icon-pref-wallpaper"
+            , "id": "viewWallpapers"
+            , "text": "桌面墙纸"
+            , "description": "为您的桌面选择有效的墙纸和颜色。"
+         }
+   	]
+   }
+   , "html": {
+   	"autorun": "选择登录时自动运行的应用模块。 不要忘记按“保存”按钮。<br /><br /><b>注意:</b><br />选择自动运行的程序越多，启动速度越慢。"
+      , "quickstart": "选择在快速启动菜单栏的应用模块。  不要忘记按“保存”按钮。"
+      , "shortcut" : "选择在桌面显示快捷键的应用模块。  不要忘记按“保存”按钮。"
+   }
+   , "label": {
+      "backgroundColor": "选择背景颜色"
+      , "fontColor": "选择字体颜色"
+      , "transparency": "任务栏透明度"
+      , "wallpaperPosition": "墙纸的显示方式?"
+   }
+   , "notification": {
+   	"saved": {
+	      "msg": "保存完成。"
+	      , "title": "完成"
+	   }
+	   , "saving": {
+	   	"msg": "正在保存您的数据..."
+	   	, "title": "请稍候"
+	   }
+   }
+   , "title": {
+      "appearance": "窗口颜色和外观"
+      , "autorun": "自动运行"
+      , "background": "桌面背景"
+      , "quickstart": "快速启动"
+      , "shortcuts": "快捷键"
+      , "window": "首选项"
+   }
+}

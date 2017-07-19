@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<follow_me>
+  		<return value="501"  message="Follow me number %2$s is actived.Return code［%1$d］"/>
+  		<return value="-501" message="Please start FollowMe function，Return code［%1$d］"/>
+    	<return value="-502" message="Setting failure，Return code［%1$d］"/>
+    	<return value="-503" message="Cancel the failure，The functional configuration information does not exist, function not open。Return code［%1$d］"/>
+</follow_me>

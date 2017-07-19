@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recharge>
+  <return value="301"  message="Recharge success，%2$s%3$s%4$s。Return code[%1$d]。" />
+  <return value="302"  message="The amount of cost:%1$s%2$s;" /> 
+  <return value="303"  message="Current account balance:%1$s%2$s；" /> 
+  <return value="304"  message="Vaild until:%s；" /> 
+  <return value="305"  message="Free Talk Time:%s minutes；" />
+  <return value="306"  message="Charges for package：%s；"/>
+  <return value="307"  message="Lease：%s；"/>
+  <return value="-301" message="Recharge failure，Incorrect recharge-pin or recharge-password。Return code［%1$d］。" /> 
+  <return value="-302" message="Recharge failure，pin number expired,Return code［%1$d］。" /> 
+  <return value="-303" message="Recharge failure，pin number miss,Return code［%1$d］。" /> 
+  <return value="-304" message="Recharge failure，This recharge-pin balance not enough。Return code［%1$d］。" /> 
+  <return value="-305" message="Recharge failure，This card has already been used。Return code［%1$d］。" /> 
+  <return value="-306" message="Recharge failure，Invalid Distributor ID。Return code［%1$d］。" /> 
+  <return value="-307" message="Recharge failure，Inconsistence currency,Return code［%1$d］。" /> 
+  <return value="-308" message="Recharge failure，Return code［%1$d］。" /> 
+  <return value="-309" message="Recharge failure，Deduct recharge-pin balances failure,Return code［%1$d］" /> 
+  <return value="601"  message="Recharge success，The amount of cost；Return code[%1$s]。" />
+  <return value="600"   message="Submit success，Loading......;Return code[%1$s]。" />
+  <return value="-601"  message="Submit failure，Trading signature is invalid!Return code[%1$s]。" />	
+  <return value="-602"  message="Submit failure，Recharge secret is invalid!Return code[%1$s]。" />
+  <return value="-603"  message="Submit failure，Order number repeat!Return code[%1$s]。" />
+  <return value="-604"  message="Submit failure，The amount paid miss!Return code[%1$s]。" />
+  <return value="-605"  message="Submit failure，Payment untutored!Return code[%1$s]。" />
+  <return value="-606"  message="Submit failure，Business status in this card business and untutored!Return code[%1$s]。" />
+  <return value="-607"  message="Submit failure，Fill in error value of recharge-pin!Return code[%1$s]。" />
+  <return value="-608"  message="Submit failure，Card password is empty or quantity is not equal!Return code[%1$s]。" />
+  <return value="-609"  message="Submit failure，Please check it and try is again!Return code[%1$s]。" />
+  <return value="-610"  message="Recharge failure，Recharge-pin recharge success，the pin recharge failure；Return code[%1$s]。" />
+  <return value="-611"  message="Recharge failure，Recharge-pin recharge success，return card status error，!Return code[%1$s]。" />
+  <return value="-612"  message="Recharge failure，Recahrge-pin value and  password miss!Return code[%1$s]。" />
+  <return value="-613"  message="Recharge failure，This card is close you submit too frequent, please try again later!Return code[%1$s]。" />  
+  <return value="-614"  message="Recharge failure，Don't support card types（Such as telecom local card）!Return code[%1$s]。" />  
+  <return value="-615"  message="Recharge failure，Password mistake or recharge card invalid!Return code[%1$s]。" />  
+  <return value="-616"  message="Recharge failure，The CARDS in the continuous error!Return code[%1$s]。" />  
+  <return value="-617"  message="Recharge failure，The value of card not enough!Return code[%1$s]。" />  
+  <return value="-618"  message="Recharge failure，This card is processed!Return code[%1$s]。" />  
+  <return value="-619"  message="Recharge failure，This card has been used!Return code[%1$s]。" />  
+  <return value="-620"  message="Recharge failure，Card in the system process!Return code[%1$s]。" />  
+  <return value="-621"  message="Recharge failure，该卡为假卡!Return code[%1$s]。" />  
+  <return value="-622"  message="Recharge failure，Which kind of are maintenance!!Return code[%1$s]。" />  
+  <return value="-623"  message="Recharge failure，Zhejiang mobile maintenance!Return code[%1$s]。" />  
+  <return value="-624"  message="Recharge failure，Jiangsu mobile maintenance!Return code[%1$s]。" />  
+  <return value="-625"  message="Recharge failure，Fujian mobile maintenance!Return code[%1$s]。" />  
+  <return value="-626"  message="Recharge failure，Liaoning mobile maintenance!Return code[%1$s]。" />  
+  <return value="-627"  message="Recharge failure，An unknown error!Return code[%1$s]。" />  
+  <return value="-628"  message="Submit success，Please later inquires the balance!Return code[%1$s]。" />        
+</recharge>

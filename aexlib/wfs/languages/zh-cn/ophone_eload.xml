@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <eload>
+  		<return value="331"  message="空中充值成功，现已充值%2$s%5$s到手机号为%3$s的账号；当前账户余额为%4$s%5$s.代码［%1$d］" />
+  		<return value="-332" message="空中充值失败，充值手机号码不存在,代码［%1$d］。" />  		
+  		<return value="-333" message="空中充值失败，请稍后再试,代码［%1$d］。" />
+  		<return value="-334" message="空中充值失败，密码错误,代码［%1$d］。" />
+  		<return value="-335" message="空中充值失败，该充值卡已经被使用,代码［%1$d］。" />
+  		<return value="-341" message="充值失败，计费账号可能被停用,代码［%1$d］。" />	
+  		<return value="-343" message="充值失败，代码［%1$d］。" />
+  		<return value="-344" message="空中充值失败，请稍后再试,代码［%1$d］。" />
+  		<return value="-345" message="空中充值失败，请稍后再试,代码［%1$d］。" />
+  		<return value="-347" message="空中充值失败，请稍后再试,代码［%1$d］。" />
+  		<return value="-346" message="空中充值失败，请稍后再试,代码［%1$d］。" />
+  		<return value="-348" message="空中充值失败，请稍后再试,代码［%1$d］。" />
+  	</eload>

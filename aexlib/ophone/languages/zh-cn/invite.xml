@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<invite>
+	<return value="451"  message="已经为您预约了%2$s，请等待自动应答。如果等不到自动应答，也许网络繁忙您可以稍后再试。代码[%1$d]" />
+	<return value="-150" message="您使用%2$s拨打%3$s可通话时间不足一分钟，请充值后再试。代码[%1$d]" />
+	<return value="-151" message="路由选择失败，请检查您的本机号码设置(%2$s)和拨号(%3$s)是否正确。代码[%1$d]" />
+	<return value="-152" message="我们无法接通您的本机号码(%2$s)，请确认您本机号码状态是否正常，并稍后再试。代码[%1$d]" />
+	<return value="-153" message="我们无法接通您的本机号码(%2$s)，请与管理员联系。代码[%1$d]" />
+	
+	<return value="-450" message="呼叫失败，通话时长为0。代码[%1$d]" />
+	<return value="-451" message="呼叫失败，计费账号已经过期。代码[%1$d]"/>
+	<return value="-452" message="呼叫失败，计费账号和密码不匹配。代码[%1$d]"/>
+	<return value="-453" message="呼叫失败，原密码不正确。代码[%1$d]"/>
+	<return value="-454" message="呼叫失败，呼叫限制。代码[%1$d]"/>
+	<return value="-455" message="呼叫失败，计费账号余额不足。代码[%1$d]"/>
+	<return value="-456" message="呼叫失败，被叫无应答，请稍后再试。代码[%1$d]"/>
+	<return value="-458" message="呼叫失败，线路忙或者号码有误，请查证后再试。代码[%1$d]"/>
+	<return value="-459" message="呼叫失败，号码有误或者线路忙，请查证后再试。代码[%1$d]"/>
+	<return value="-460" message="呼叫失败，您的账户达不到最低消费金额，无法使用该功能。代码[%1$d]" />
+	<return value="-461" message="主叫没有绑定账号，或绑定账号已经失效。代码[%1$d]" />
+	<return value="-462" message="密码验证未通过。代码[%1$d]" />
+	<return value="-464" message="没有权限拨打被叫区域。代码[%1$d]" />
+	<return value="-465" message="余额不足。代码[%1$d]" />
+	<return value="-466" message="两通通话间的间隔太小。代码[%1$d]" />
+	<return value="-470" message="H323ID+E164认证失败。代码[%1$d]" />
+	<return value="-471" message="H323ID不存在。代码[%1$d]" />
+	<return value="-472" message="IP地址认证失败。代码[%1$d]" />
+	<return value="-473" message="H323ID或IP地址认证失败。代码[%1$d]" />
+	<return value="-474" message="PSTN主叫认证的网关不能以自己的E164进行呼叫，只能以真实的PSTN主叫号码来呼叫。代码[%1$d]" />
+	<return value="-491" message="计算呼叫转移费用失败，也许被叫不可以呼叫转移，或者呼叫转移的预付费金额不足。代码[%1$d]" />
+	<return value="-939" message="认证主叫%2$s失败，请检查帐户余额再试，代码[%1$d]" />
+	<return value="-1000" message="认证主叫%2$s失败，请检查帐户余额再试，代码[%1$d]" />
+	<return value="-1005" message="余额不足。代码[%1$d]" />
+	<return value="-1100" message="帐户余额不足最低限额不可以使用此功能。代码[%1$d]" />
+	<return value="-1939" message="认证被叫%3$s失败，请检查帐户余额再试，代码[%1$d]" />
+	<return value="-2005" message="余额不足。代码[%1$d]" />
+	<return value="-2000" message="认证被叫%3$s失败，请检查帐户余额再试，代码[%1$d]" />
+	<return value="-2100" message="帐户余额不足最低限额不可以使用此功能。代码[%1$d]" />
+</invite>

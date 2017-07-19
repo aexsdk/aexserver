@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<module>
+   <module_type>system/preferences</module_type>
+   <module_id>qo-preferences</module_id>
+   
+	<author>Todd Murdock</author>
+	<description>Allows users to set, and save their desktop preferences.</description>
+   <name>Preferences</name>
+   <url>www.qwikioffice.com</url>
+   <version>1.0</version>
+	
+   <locales>en</locales>
+   <locale_directory>qwiki/preferences/frontend/locale/</locale_directory>
+
+   <menu_path>ToolMenu</menu_path>
+
+   <launcher>
+      <icon_cls>pref-icon</icon_cls>
+      <shortcut_icon_cls>pref-shortcut-icon</shortcut_icon_cls>
+      <text>Preferences</text>
+      <tooltip>Allows you to modify your desktop</tooltip>
+   </launcher>
+
+   <actions>
+      <action>saveAppearance</action>
+      <action>saveAutorun</action>
+      <action>saveBackground</action>
+      <action>saveQuickstart</action>
+      <action>saveShortcut</action>
+      <action>viewThemes</action>
+      <action>viewWallpapers</action>
+   </actions>
+
+   <required_widgets>
+      <widget_id>color-picker</widget_id>
+      <widget_id>explorer-view</widget_id>
+   </required_widgets>
+
+   <stylesheets>
+      <stylesheet>
+         <directory>qwiki/preferences/frontend/resources/</directory>
+         <file>styles.css</file>
+      </stylesheet>
+   </stylesheets>
+   
+   <client_files>
+      <directory path='qwiki/preferences/frontend/'>
+         <files>
+            </file>QoPreferences-declaration.js</file>
+         </files>
+      </directory>
+      
+      <file>
+         <directory>qwiki/preferences/frontend/</directory>
+         <name>QoPreferences-override.js</name>
+      </file>
+      <file>
+         <directory>qwiki/preferences/frontend/lib/</directory>
+         <name>Appearence.js</name>
+      </file>
+      <file>
+         <directory>qwiki/preferences/frontend/lib/</directory>
+         <name>AutoRun.js</name>
+      </file>
+      <file>
+         <directory>qwiki/preferences/frontend/lib/</directory>
+         <name>Background.js</name>
+      </file>
+      <file>
+         <directory>qwiki/preferences/frontend/lib/</directory>
+         <name>Grid.js</name>
+      </file>
+      <file>
+         <directory>qwiki/preferences/frontend/lib/</directory>
+         <name>Nav.js</name>
+      </file>
+      <file>
+         <directory>qwiki/preferences/frontend/lib/</directory>
+         <name>Quickstart.js</name>
+      </file>
+      <file>
+         <directory>qwiki/preferences/frontend/lib/</directory>
+         <name>Shortcut.js</name>
+      </file>
+   </client_files>
+
+   <server_file>
+      <class>QoPreferences</class>
+      <directory>qwiki/preferences/backend/</directory>
+      <name>QoPreferences.php</name>
+   </server_file>
+</module>

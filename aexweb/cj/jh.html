@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>用户激活信息</title>
+<script language="javascript" src="webs/jquery.js"></script>
+<script language="javascript" src="webs/cj.js"></script>
+<style type="text/css">
+body{font-size:12px;margin:0;padding:0;}#update td{height:27px;padding-left:5px;}.text01{width:220px;}.buttoncss{width:80px;}.STYLE1{color:red;}
+</style>
+</head>
+<body  scroll="no">
+<div id="all" style="width:480px; height:410px; background-color:f5f6f7">
+      <div id="body" style="width:480px; height:380px; background:#FFFFFF;">
+         <div id="body1" style="width:480px; height:380px">
+               <div id="" style="width:480px; height:50px; border-bottom:1px dashed #CCCCCC;">
+	                 <div style="padding-top:20px; padding-left:5px; position:relative">
+		                 <img src="webs/LOGO.gif">
+		                 <font style="font-size:12px; line-height:5px">
+		                	 <strong>使用本服务之前，请先提供您的个人信息，以便核对抽奖信息和激活账号。</strong></font>
+                         <font style="font-size:12px; position:absolute; right:35px; top:10px;">(带<span class="STYLE1">*</span>号的项目必填)</font>	                 </div>
+                     
+           </div>
+              
+             <div id="update" style="width:480px; height:340px;"> 
+                   <form action="cj.php" method="post" name="modifyguest" id="modifyguest">
+						  <div id="" style="width:480px; height:20px;"></div>
+                          <table>
+						     <tr>
+						        <td> 姓：</td>
+						        <td colspan="3"><input type="text" class="text01" name="FirstName" id="FirstName" value="" />
+					            <span class="STYLE1">*</span></td>
+				     </tr>
+						     <tr>
+						        <td> 名：</td>
+						        <td colspan="3"><input type="text" class="text01" name="LastName"  id="LastName" value="" />
+					            <span class="STYLE1">*</span></td>
+				     </tr>
+						     <tr>
+						        <td> 电子邮件：</td>
+						        <td colspan="3"><input type="text" class="text01" name="EMailAddress" id="EMailAddress" />
+					            <span class="STYLE1" id="MAId">*</span></td>
+				     </tr>
+						     <tr>
+						        <td>身份证号码：</td>
+						        <td colspan="3"><input type="text" class="text01" name="CardID" id="CardID" onkeyup="this.value=this.value.replace(/[^0-9a-zA-Z]/g,'','')"/></td>
+						     </tr>
+						     <tr>
+						        <td>联系地址：</td>
+						        <td colspan="3"><input type="text" class="text01" name="Address" id="Address" value="" /></td>
+						     </tr>
+						     
+						     <tr>
+						        <td>城市：</td>
+						        <td><input type="text" name="City" id="City" value="" /></td>
+						        <td>邮政邮编：</td>
+						        <td><input type="text" name="ZipCode" id="ZipCode" value="" maxlength="6" /></td>
+						     </tr>
+						     <tr>
+						        <td>国家：</td>
+						        <td><input type="text" name="Country" id="Country" value="" /></td>
+						        <td>移动电话：</td>
+						        <td><input type="text" name="CellPhone" id="CellPhone" value="" /></td>
+						     </tr>
+						     <tr>
+						        <td>固定电话：</td>
+						        <td><input type="text" name="FixedPhone" id="FixedPhone" value="" /></td>
+						        <td>传真：</td>
+						        <td><input type="text" name="Fax" id="Fax" value="" /></td>
+						     </tr>
+                             <table>
+						  </table>
+                          <div style="border-top:1px dashed #CCCCCC; width:100%">
+                            <table width="100%">
+						     <tr>
+						       <td colspan="3"><span id="tips" style="color:#FF0000; display:none"></span>
+						       </td>
+						       <td width="17%" style="text-align:right">
+                                 <input type="hidden" name="getclientinfo" id="getclientinfo" />
+                                 <input type="hidden" name="flag" id="flag" value="-1" />
+                                 <input type="button" name="active" id="active" value="激活账号" disabled="true" />
+						       </td>
+						     </tr>
+						     <tr>
+						        <td colspan="4" align="left" valign="middle">
+						             <span class="STYLE1">*</span>方便为您提供相关服务，请您认真填写个人信息。						        </td>
+						     </tr>
+                             </table>
+                          </div>
+					</form>  
+
+					             </div>
+         </div>
+      </div>
+  </div>
+</body>
+</html>

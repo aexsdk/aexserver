@@ -1,0 +1,105 @@
+{
+   "launcherText": "平台设置"
+   , "launcherTooltip": "<b>平台设置</b><br />允许您查看和设置平台参数和基本数据。"
+   , "Home": "主页"
+   , "data": {
+		"nav": [
+		     {
+		     	"cls": "system-normal-icon"
+		     	, "id": "viewSystemNormals"
+		     	, "text": "平台设置"
+		     	, "description": "设置和查看系统基本参数和登录信息。"
+		     	, "items":[{
+		     			"id" : "sn_ophone_params"
+		     			,"text":"节费手机参数设置"
+		     			,"description":"设置系统OPHONE参数，如：节费产品名称、节费手机产品参数。"
+		     		},{
+		     			"id" : "sn_uphone_params"
+		     			,"text":"软电话参数设置"
+		     			,"description":"设置系统UPHONE参数，如：软电话产品名称和参数、广告栏地址"
+		     		},{
+		     			"id" : "sn_vpn_params"
+		     			,"text":"VPN参数设置"
+		     			,"description":"设置系统VPN参数，如：VPN产品名称和参数、广告栏地址"
+		     		},{
+		     			"id" : "sn_support_params"
+		     			,"text":"维护人员设置"
+		     			,"description":"设置系统维护人员的邮件地址、接受短信的手机等等，当系统发生故障时会邮件或者短信通知。"
+		     		},{
+		     			"id" : "sn_test"
+		     			,"text":"功能测试"
+		     			,"description":"模拟用户信息（PID、VID、设备序列号、手机号码）等信息获取配置信息，检验相关配置的正确性。"
+		     		}]
+		     }
+		     , {
+		        "cls": "system-rewrite_phone-no-icon"
+		        , "id": "viewSystemRewritePhoneNo"
+		        , "text": "号码替换规则设置"
+		        , "description": "设置系统全局号码替换规则。每个代理商不同的替换规则。运营商设置的规则全局有效，且不能被覆盖。"
+		        , "items":[{
+		     			"id" : "srp_dial_prefix_params"
+		     			,"text":"拨号前缀设置"
+		     			,"description":"设置系统支持的拨号前缀，如201、400等，并为直拨手机号码和区号+号码的拨号方式指定特殊前缀。计费和路由将根据此前缀和E164来作设置。"
+		     		},{
+		     			"id" : "srp_in_caller_rewrite_params"
+		     			,"text":"接入主叫号码替换"
+		     			,"description":"设置系统接入时的主叫号码替换。接入号码替换的目的是使号码更接近E164规则。一般用于集团网短号变长号。"
+		     		},{
+		     			"id" : "srp_in_callee_params"
+		     			,"text":"接入被叫号码替换"
+		     			,"description":"设置系统接入时的被叫号码替换规则。接入号码替换的目的是使号码更接近E164规则。"
+		     		},{
+		     			"id" : "srp_out_caller_params"
+		     			,"text":"呼出主叫号码替换"
+		     			,"description":"设置全局路由主叫号码替换规则。可用于UPHONE和集团网的用户级透传号码更改，如为UPHONE透传DID号码。"
+		     		},{
+		     			"id" : "srp_out_callee_params"
+		     			,"text":"呼出被叫号码替换"
+		     			,"description":"设置呼出的号码替换规则，此规则在路由选择完成后进行，用于为代理商设置固定的拨号前缀。"
+		     		},{
+		     			"id" : "srp_test"
+		     			,"text":"模块功能测试"
+		     			,"description":"根据代理商、主叫号码、拨叫号码，获得：前缀、接入系统替换后的主被叫号码、呼出时替换后的主被叫号码。"
+		     		}]
+		     }
+		     , {
+		        "cls": "system-area-code-maps-icon"
+		        , "id": "viewSystemAreaCodeMaps"
+		        , "text": "地区号码对照设置"
+		        , "description": "设置国家代码、地区代码以及归属运营商信息。"
+		        , "items":[{
+		     			"id" : "vsa_carrier_codes"
+		     			,"text":"运营商代码表"
+		     			,"description":"设置并查看每个国家的运营商信息。"
+		     		},{
+		     			"id" : "vsa_carrier_prefixs"
+		     			,"text":"设置运营商号段"
+		     			,"description":"设置和查看各个国家的运营商的号段表。有些国家并不是以号段来区分运营商的，针对这些国家则是号码所属的运营商，这个就需要动态更新了。准确的信息对做好路由管理有很大的帮助。"
+		     		},{
+		     			"id" : "vsa_area_maps"
+		     			,"text":"地区号码对照表"
+		     			,"description":"设置国家地区号码对照表，一般国码和地区码是唯一的。也有多个国家和地区使用相同代码的情况，我们这时以主要国家和地区为主，在备注中注明。1代表美加。"
+		     		},{
+		     			"id" : "vsa_test"
+		     			,"text":"模块功能测试"
+		     			,"description":"根据号码规则获得国家代码、地区代码、运营商等信息。"
+		     		}]
+		     }
+		     , {
+		        "cls": "system-call-type-icon"
+		        , "id": "viewSystemCallType"
+		        , "text": "设置呼叫类别"
+		        , "description": "设置系统支持的呼叫类别：优盘U、集团网G、回拨第一脚A、回拨第二脚B。"
+		     }
+		]
+   }
+   ,"Normal":"基本信息"
+   ,"Rewrite":"号码替换"
+   ,"AreaCodes":"地区代码表"
+      
+   ,"ct_uphone":"优盘电话直拨"
+   ,"ct_group":"集团网直拨"
+   ,"ct_callback_a":"回拨第一脚A"
+   ,"ct_callback_b":"回拨第二脚B"
+}
+ 

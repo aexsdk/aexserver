@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ani_edit>
+	<return value="101"  message="修改成功" />
+	<return value="-101"  message="修改失败" />
+	<return value="-102"  message="该ANI 号码不存在" />
+</ani_edit>

@@ -1,0 +1,10 @@
+body {
+	font-family:verdana,tahoma,arial,verdana,sans-serif;
+	font-size:12px;
+}
+#qo-login-panel {
+	//background:#133;
+	//border:2px solid #f3f3f3;
+	height:360px;
+	width:420px;
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unbind>
+    <return value="101"  message="绑定成功！代码[%1$s]" />
+    <return value="-101" message="已经有与主叫号码相同的终端号码存在;代码[%1$s]"/>
+    <return value="-102" message="终端帐号被禁用;代码[%1$s]"/>
+    <return value="-103" message="终端号码和密码比匹配;代码[%1$s]"/>
+    <return value="-104" message="已经绑定了其他帐号;代码[%1$s]"/>
+    <return value="-105" message="绑定操作失败;代码[%1$s]"/>
+    <return value="-106" message="绑定号码为空;代码[%1$s]"/>
+</unbind>

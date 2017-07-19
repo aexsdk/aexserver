@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ani_add>
+	<return value="101"  message="设置成功" />
+	<return value="-101"  message="该ANI号码已经存在" />
+	<return value="-102"  message="设置失败" />
+</ani_add>

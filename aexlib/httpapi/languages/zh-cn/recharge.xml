@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recharge>
+  <return value="301"  message="充值成功%2$s%3$s%4$s。代码[%1$d]。" />
+  <return value="302"  message="本次充值金额为:%1$s%2$s;。" /> 
+  <return value="303"  message="当前账户余额为:%1$s%2$s" /> 
+  <return value="304"  message="有效期至:%s" /> 
+  <return value="305"  message="免费通话时长为:%s分钟" />
+  <return value="306"  message="资费套餐为：%s"/>
+  <return value="307"  message="租期至：%s"/>
+  <return value="-100"  message="充值成功但是记录日志失败，代码[%1$d]。"/>
+  <return value="-101"  message="认证失败，代码[%1$d]。"/>
+  <return value="-102"  message="扣减大于帐户余额，代码[%1$d]。"/>
+  <return value="-103"  message="充值失败，代码[%1$d]。"/>
+  <return value="-104"  message="代理商认证失败，代码[%1$d]。"/>
+  <return value="-105"  message="代理商帐户余额不足，代码[%1$d]。"/>
+  <return value="-106"  message="帐号不存在，代码[%1$d]。"/>
+  <return value="-110"  message="没有设置代理商参数，请与管理员联系"/>
+  
+  <return value="-301" message="充值失败，充值卡账号或者密码错误,代码［%1$d］。" /> 
+  <return value="-302" message="充值失败，计费账号已过期,代码［%1$d］。" /> 
+  <return value="-303" message="充值失败，计费账号不存在,代码［%1$d］。" /> 
+  <return value="-304" message="充值失败，该充值卡金额为不足,代码［%1$d］。" /> 
+  <return value="-305" message="充值失败，该充值卡已经被使用,代码［%1$d］。" /> 
+  <return value="-306" message="充值失败，充值卡的代理商与手机帐号属于不同的代理商,代码［%1$d］。" /> 
+  <return value="-307" message="充值失败，手机帐号与目的帐号货币类型不一致,代码［%1$d］。" /> 
+  <return value="-308" message="充值失败，代码［%1$d］。" /> 
+  <return value="-309" message="充值失败，扣减充值卡余额失败,代码［%1$d］" /> 
+  <return value="601"  message="充值成功；代码[%1$s]。" />
+  <return value="600"  message="提交成功，正在进行......;代码[%1$s]。" />
+  <return value="-601"  message="提交失败，交易签名无效!代码[%1$s]。" />	
+  <return value="-602"  message="提交失败，支付卡密无效!代码[%1$s]。" />
+  <return value="-603"  message="提交失败，订单号重复!代码[%1$s]。" />
+  <return value="-604"  message="提交失败，支付金额有误!代码[%1$s]。" />
+  <return value="-605"  message="提交失败，支付方式未开通!代码[%1$s]。" />
+  <return value="-606"  message="提交失败，业务状态不可用，未开通此类卡业务!代码[%1$s]。" />
+  <return value="-607"  message="提交失败，卡面额组填写错误!代码[%1$s]。" />
+  <return value="-608"  message="提交失败，卡号密码为空或者数量不相等!代码[%1$s]。" />
+  <return value="-609"  message="提交失败，请检查后重新测试支付!代码[%1$s]。" />
+  <return value="-610"  message="充值失败，充值卡充值成功，手机端账号充值失败；代码[%1$s]。" />
+  <return value="-611"  message="充值失败，充值卡充值成功，返回充值卡状态错误[%2$s]，!代码[%1$s]。" />
+  <return value="-612"  message="充值失败，卡面额与卡号卡密不一致!代码[%1$s]。" />
+  <return value="-613"  message="充值失败，本张卡密您提交过于频繁，请您稍后再试!代码[%1$s]。" />  
+  <return value="-614"  message="充值失败，不支持的卡类型（比如电信地方卡）!代码[%1$s]。" />  
+  <return value="-615"  message="充值失败，密码错误或充值卡无效!代码[%1$s]。" />  
+  <return value="-616"  message="充值失败，该卡在同一天连续错误提交!代码[%1$s]。" />  
+  <return value="-617"  message="充值失败，卡内余额不足!代码[%1$s]。" />  
+  <return value="-618"  message="充值失败，此卡正在处理中!代码[%1$s]。" />  
+  <return value="-619"  message="充值失败，此卡已使用!代码[%1$s]。" />  
+  <return value="-620"  message="充值失败，卡密在系统处理中!代码[%1$s]。" />  
+  <return value="-621"  message="充值失败，该卡为假卡!代码[%1$s]。" />  
+  <return value="-622"  message="充值失败，该卡种正在维护!代码[%1$s]。" />  
+  <return value="-623"  message="充值失败，浙江省移动维护!代码[%1$s]。" />  
+  <return value="-624"  message="充值失败，江苏省移动维护!代码[%1$s]。" />  
+  <return value="-625"  message="充值失败，福建省移动维护!代码[%1$s]。" />  
+  <return value="-626"  message="充值失败，辽宁省移动维护!代码[%1$s]。" />  
+  <return value="-627"  message="充值失败，未知错误!代码[%1$s]。" />  
+  <return value="-628"  message="提交成功，请稍后查询余额!代码[%1$s]。" />        
+</recharge>

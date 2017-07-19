@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mlm>
+	<common-error>
+		<return value="-1"  message="数据库连接失败，代码［%d］。" />
+		<return value="-2" message="加载数据库存储过程失败，代码［%d］。"/>	
+		<return value="-3" message="操作没有实现，代码［%d］。"/>
+		<return value="-4" message="请求中没有提供操作符，代码［%d］。"/>
+	</common-error>
+	<admin_login>
+		<return value="201"  message="登录成功" />
+		<return value="-201" message="登录失败，密码不正确"/>	
+		<return value="-202" message="执行数据库失败"/>
+	</admin_login>
+	<account_info>
+		<return value="-201" message="手机序列号和手机号码不匹配"/>	
+		<return value="-202" message="手机序列号和密码不匹配"/>
+		<return value="-203" message="手机序列号不存在，请与经销商联系"/>
+	</account_info>
+	<add_platform>
+		<return value="221"  message="添加成功" />
+		<return value="-221" message="该手机号码已经存在"/>	
+		<return value="-222" message="添加用户表错误"/>	
+		<return value="-223" message="添加root信息表错误" />
+		<return value="-224" message="添加管理员销售业绩错误"/>	
+		<return value="-225" message="执行数据库失败"/>	
+	</add_platform>
+	<root-add_stock>
+		<return value="-251"  message="出库人的信息验证失败	" />
+		<return value="-252" message="入库人的信息验证失败"/>	
+		<return value="-253" message="不属于同一网络，不能充值"/>	
+		<return value="-254" message="不能给自己充值"/>	
+		<return value="-255" message="运营商增加库存金额失败"/>	
+		<return value="-256" message="出库人的库存余额不足"/>	
+		<return value="-257" message="入库人的库存余额扣除失败"/>	
+		<return value="-258" message="执行数据库失败"/>	
+		<return value="251" message="运营商增加库存金额成功"/>	
+		<return value="252" message="运营商增加库存金额成功"/>	
+	</root-add_stock>
+	<user-active>
+		<return value="2"  message="帐号已经被激活" />
+		<return value="1"  message="帐号激活成功" />
+		<return value="-1"  message="密码错误" />
+		<return value="-3"  message="手机号码对应的用户不存在" />
+	</user-active>
+	<user-account>
+		<return value="1"  message="获取帐号信息成功" />
+		<return value="-1"  message="帐号不存在" />
+	</user-account>
+	<modify-password>
+		<return value="1"  message="修改密码成功" />
+		<return value="-1"  message="帐号信息不匹配" />
+		<return value="-4"  message="密码录入失败" />
+	</modify-password>
+	<user-unbind>
+		<return value="1"  message="解除绑定成功" />
+		<return value="-1"  message="解除绑定失败" />
+	</user-unbind>
+	<dealer_get_bonus>
+		<return value="1"  message="获取金额成功" />
+		<return value="-1"  message="账号验证失败" />
+		<return value="-2"  message="数据库执行失败" />
+	</dealer_get_bonus>
+	<root_calc_bonus>
+		<return value="301"  message="计算奖金成功" />
+		<return value="-301"  message="根节点不存在，或者不是根节点" />
+		<return value="-302"  message="计算单个节点的奖金发生错误" />
+		<return value="-305"  message="帐号信号验证错误" />
+		<return value="-306"  message="数据库操作失败" />
+	</root_calc_bonus>
+	<resaler_bonus_to_stock>
+		<return value="-501"	message="操作人的信息验证失败" />
+		<return value="-505"	message="结算金额不能为0"/>	
+		<return value="-503" 	message="结算金额大于实际金额"/>	
+		<return value="-504" 	message="执行数据库失败"/>	
+		<return value="-110" 	message="无返回值返回"/>	
+		<return value="-506" 	message="该功能只能为本机号码操作" />
+		<return value="501" 	message="转账成功"/>	
+	</resaler_bonus_to_stock>
+	<resaler_apply_bonus>
+		<return value="521"  	message="结算金额成功" />
+		<return value="-521"  	message="账号验证失败" />
+		<return value="-522"  	message="没有找到要结算的用户" />
+		<return value="-525"  	message="结算金额不能为0" />
+		<return value="-523" 	message="结算金额大于实际金额" />
+		<return value="-524" 	message="执行数据库失败额" />
+		<return value="-110" 	message="无返回值返回"/>	
+	</resaler_apply_bonus>
+	<resaler_bonus_to_recharge>
+		<return value="-531"	message="操作人的信息验证失败" />
+		<return value="-533" 	message="结算金额大于实际金额"/>	
+		<return value="-534" 	message="执行数据库失败"/>	
+		<return value="-535"	message="结算金额不能为0"/>
+		<return value="-536" 	message="该功能只能为本机号码操作" />	
+		<return value="-541" 	message="执行wfs数据库失败"/>
+		<return value="-542" 	message="请激活节费通话功能"/>
+		<return value="-551" 	message="运营商未开启该功能"/>
+		<return value="-552" 	message="请激活节费通话功能"/>
+		<return value="-553" 	message="本账号不享有该功能"/>
+		<return value="-554" 	message="运营商话费不足，请联系运营商"/>
+		<return value="-555" 	message="执行billing数据库失败"/>
+		<return value="-110" 	message="无返回值返回"/>	
+		<return value="531" 	message="转账成功"/>		
+	</resaler_bonus_to_recharge>
+</mlm> 

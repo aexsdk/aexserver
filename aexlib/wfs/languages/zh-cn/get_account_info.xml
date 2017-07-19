@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<common>
+	<return value="900"  message="初始化" />
+	<return value="901"  message="正常" />
+	<return value="902"  message="停用" />
+	<return value="980"  message="天" />
+	<return value="981"  message="月" />
+	<return value="982"  message="年" />
+	<return value="970"  message="已过期%d" />
+	<return value="971"  message="租期还有%d" />
+	<return value="972"  message="已过保修期%d%s" />
+	<return value="973"  message="保修期还有%d%s" />
+	
+	<return value="910"  message="已过保修期" />
+	<return value="991001" message="普通计费"/>
+	<return value="991002" message="包月版 %s%s"/>
+	<return value="991011" message="包月版 %s%s"/>
+	<return value="991014"  message="免费版" />
+	<return value="991010"  message="包月版，%s%s" />
+	<return value="991019"  message="包年版，%s" />
+
+	<return value="-101"  message="获取失败，代码［%d］。" />
+</common>

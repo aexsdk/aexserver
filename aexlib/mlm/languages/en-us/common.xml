@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<common>
+	<return value="-1"  message="数据库连接失败，代码［%d］。" />
+	<return value="-2" message="加载数据库存储过程失败，代码［%d］。"/>	
+	<return value="-3" message="操作没有实现，代码［%d］。"/>
+	<return value="-4" message="请求中没有提供操作符，代码［%d］。"/>
+	<return value="-5" message="获得存储过程数组失败，代码［%d］。"/>
+	<return value="-10" message="执行存储过程返回的不是数组格式，代码［%d］。"/>
+	<return value="-51" message="源IP被禁止使用此API，代码[%d] 。"/>
+</common>

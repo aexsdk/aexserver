@@ -1,0 +1,33 @@
+{
+   "launcherText": "Endpoints"
+   , "launcherTooltip": "<b>Endpoints</b><br />Allows you to modify endpoints"
+   , "Home": "Home"
+   , "data": {
+		"nav": [
+		     {
+		     	"cls": "qo-admin-groups-icon"
+		     	, "id": "viewGroups"
+		     	, "text": "Groups"
+		     	, "description": "Manage your desktp's groups"
+		     }
+		     , {
+		        "cls": "qo-admin-members-icon"
+		        , "id": "viewMembers"
+		        , "text": "Members"
+		        , "description": "Manage your desktop's members"
+		     }
+		     , {
+		        "cls": "qo-admin-privileges-icon"
+		        , "id": "viewPrivileges"
+		        , "text": "Privileges"
+		        , "description": "Manage your desktop's privileges"
+		     }
+		     , {
+		        "cls": "qo-admin-signups-icon"
+		        , "id": "viewSignups"
+		        , "text": "Signups"
+		        , "description": "Manage signups members"
+		     }
+		]
+   }
+}

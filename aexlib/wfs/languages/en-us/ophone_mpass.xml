@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mpass>
+  		<return value="351"  message="Modify password success，Current password is:[%2$s]。Return code［%1$d］ " />
+    	<return value="-351" message="Modify the password failure。Return code［%1$d］ "/>
+    	<return value="-352" message="Modify the password failure，The original password is incorrect。Return code［%1$d］ "/>
+    	<return value="-353" message="Modify the password failure，Modify WFS system password failure。Return code［%1$d］ "/>
+    	<return value="-354" message="Modify the password failure，Execute database failure。Return code［%1$d］ "/>
+    	<return value="-355" message="Modify the password failure，Modify payments system password failure。Return code［%1$d］ "/>
+    	<return value="-101" message="Modify the password failure，System error，Try again later。Return code［%1$d］ "/>
+    	<return value="-102" message="Modify the password failure，System error，Try again later。Return code［%1$d］ "/>
+    	<return value="-103" message="Modify the password failure，System error，Try again later。Return code［%1$d］ "/>  	
+</mpass>

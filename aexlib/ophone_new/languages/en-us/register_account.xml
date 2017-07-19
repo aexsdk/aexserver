@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<active>
+	<return value="-208" message="get actived pin number failure ，Radius excute error。Return code[%d]。"/>
+</active>

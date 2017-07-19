@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<common>
+	<return value="0"  message="代码［%d］。" />
+	<return value="-1" message="数据库连接失败，代码［%d］。" />
+	<return value="-2" message="加载数据库存储过程失败，代码［%d］。"/>	
+	<return value="-3" message="操作没有实现，代码［%d］。"/>
+	<return value="-4" message="请求中没有提供操作符，代码［%d］。"/>
+	<return value="-5" message="获得存储过程数组失败，代码［%d］。"/>
+	<return value="-10" message="执行存储过程返回的不是数组格式，代码［%d］。"/>
+	<return value="-51" message="源IP被禁止使用此API，代码[%d] 。"/>
+	<return value="-61" message="Radius请求参数错误，提供的参数不是数组，代码[%d] 。"/>
+	<return value="-62" message="创建Radius对象错误，代码[%d] 。"/>
+	<return value="-63" message="添加Radius服务器错误，代码[%d] 。"/>
+	<return value="-64" message="创建请求是失败，代码[%d] 。"/>
+	<return value="-65" message="添加Radius参数失败，代码[%d] 。"/>
+	<return value="-66" message="发送Radius请求失败，代码[%d] 。"/>
+	<return value="-67" message="获得Radius返回属性失败，代码[%d] 。"/>
+	<return value="-68" message="Radius请求超时，代码[%d] 。"/>
+	<return value="-69" message="Radius返回的代码错误(挑战)，代码[%d] 。"/>
+	<return value="-80" message="查询或者存储过程返回不是数组，执行失败，代码[%d]"/>	
+	<return value="-81" message="获得查询列表的总行数失败，返回不是数组，执行失败，代码[%d]"/>	
+	<return value="-82" message="连接呼叫服务器失败，请与管理员联系，代码[%d]"/>	
+	<return value="-98" message="请求的参数有误，请联系系统管理员，代码[%d]"/>	
+	<return value="-99" message="未开启此功能，代码[%d]"/>
+	<return value="98"  message="成功调用存储过程，但是存储过程没有p_return和n_return_value等返回参数" />
+</common>

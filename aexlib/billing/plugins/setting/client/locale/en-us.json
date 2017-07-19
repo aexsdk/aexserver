@@ -1,0 +1,46 @@
+{
+   "launcherText": "系统概况"
+   , "launcherTooltip": "<b>系统概况</b><br />允许您查看系统运营概要信息。"
+   , "Home": "主页"
+   , "data": {
+		"nav": [
+		     {
+		     	"cls": "ez-normal-icon"
+		     	, "id": "viewNormals"
+		     	, "text": "基本信息"
+		     	, "description": "查看系统基本参数和登录信息"
+		     }
+		     , {
+		        "cls": "ez-traffic-icon"
+		        , "id": "viewTraffics"
+		        , "text": "流量统计"
+		        , "description": "查看系统一周流量统计信息"
+		     }
+		     , {
+		        "cls": "ez-recharge-icon"
+		        , "id": "viewRecharges"
+		        , "text": "充值统计"
+		        , "description": "查看系统一周用户充值统计信息"
+		     }
+		]
+   }
+   ,"Normal":"基本信息"
+   ,"Traffic":"流量统计"
+   ,"Recharge":"充值统计"
+   
+   ,"StartDate":"起始日期"
+   ,"YFields":"图表组合"
+   ,"Calls":"呼叫数量"
+   ,"Connecteds":"接通数量"
+   ,"ASR":"接通率"
+   ,"Session":"话务量"
+   ,"Fee":"话费"
+   ,"tFee":"落地费"
+   
+   ,"WebRecharge":"后台"
+   ,"PinRecharge":"充值卡"
+   ,"Online":"网银"
+   ,"CMCC":"移动"
+   ,"UNICOM":"联通"
+   ,"CTC":"电信"
+}

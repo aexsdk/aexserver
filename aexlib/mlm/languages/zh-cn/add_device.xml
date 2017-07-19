@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<add_device>
+	<return value="=101" message="添加成功" />
+	<return value="-101"  message="添加失败，代码[%d]。" />
+</add_device>

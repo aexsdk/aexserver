@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<active>
+	<return value="-101"  message="密码错误，代码[%d]。" />
+	<return value="-103"  message="手机号码对应的用户不存在，代码[%d]。" />
+	<return value="-105"  message="手机优会通功能尚未开通，请先激活优会通，代码[%d]。" />
+</active>

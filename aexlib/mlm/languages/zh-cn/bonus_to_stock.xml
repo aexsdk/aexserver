@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bonus_to_stock>
+	<return value="501"  message="帐号%2$s成功将%4$d奖金转到帐号%3$s的库存，代码[%1$d]。" />
+	<return value="-501"  message="手机账号验证失败，代码[%1$d]。" />
+	<return value="-506"  message="结算账号和手机账号不相符，代码[%1$d]。" />
+	<return value="-503"  message="结算金额大于实际金额，代码[%1$d]。" />
+	<return value="-505"  message="结算金额不能为0，代码[%1$d]。" />
+</bonus_to_stock>

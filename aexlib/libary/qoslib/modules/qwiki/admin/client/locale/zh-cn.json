@@ -1,0 +1,68 @@
+{
+   "launcherText": "系统设置"
+   , "launcherTooltip": "<b>系统设置</b><br />允许你修改您的桌面平台的模块以及用户权限。"
+   , "Home": "主页"
+      , "data": {
+		"nav": [
+		     {
+		     	"cls": "qo-admin-groups-icon"
+		     	, "id": "viewGroups"
+		     	, "text": "用户组"
+		     	, "description": "管理系统用户组"
+		     }
+		     , {
+		        "cls": "qo-admin-members-icon"
+		        , "id": "viewMembers"
+		        , "text": "用户"
+		        , "description": "管理系统登录用户"
+		     }
+		     , {
+		        "cls": "qo-admin-privileges-icon"
+		        , "id": "viewPrivileges"
+		        , "text": "权限组"
+		        , "description": "管理用户权限组"
+		     }
+		]
+   	}
+   ,"members":"用户"
+   ,"groups":"用户组"
+   ,"privileges":"权限组"
+   ,"field":{
+   		"id":"编号"
+   		,"first_name":"名"
+   		,"last_name":"姓"
+   		,"email":"邮箱"
+   		,"locale":"语言"
+   		,"group":"用户组"
+   		,"resaler":"经销商"
+   		,"active":"状态"
+   		,"save_config":"保存配置"
+   		,"refresh":"刷新"
+   		,"add":"添加"
+   		,"add_new_member":"添加新的操作用户"
+   		,"Delete":"删除"
+   		,"delete_selected":"删除所选的用户"
+   		,"refreshing":"正在刷新..."
+   		,"view":"查看"
+   		,"edit":"编辑"
+   		,"add_new_group":"添加新的用户组"
+   		,"password":"密码"
+   		,"confirm_password":"确认密码"
+   	}
+   	,"no_members_to_display":"没有可显示的用户..."
+   	,"member_add":{
+   		"title":"添加用户"
+   		,"first_page":"输入用户参数"
+   		,"first_page_info":"请输入用户参数，只能是字母、下划线和连字符。"
+   		,"Input_account_info" : "输入帐号信息"
+   		,"input_password":"输入密码"
+   		,"pls_input_password":"请输入密码并确认密码。"
+   		,"pls_select_group":"请为新建的用户选择所属用户组。"
+   		,"select_group":"选择用户组"
+   		,"create_member":"创建用户"
+   		,"page_welcome":"欢迎使用此向导创建用户。<br><li>1. 输入用户信息；</li><li>2. 输入和确认密码；</li><li>3. 选择用户组；</li><li>4. 选择用户所属代理商。</li>"
+   		,"select_resaler":"请选择新建用户所属的代理商"
+   		,"pls_select_resaler":"请为新建的用户选择所属的代理商或者指定为运营商用户。"
+   		,"pls_create_number":"您已经提供了所有新用户的参数，点击“完成”按钮可以创建此新用户。"
+   	}
+}

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ophone>
+	<common-error>
+		<return value="-1"  message="Database connect error" />
+		<return value="-2" message="Execute database sql error"/>	
+		<return value="-3" message="Not found the action implementation file"/>
+		<return value="-4" message="No action found at request"/>
+	</common-error>
+  <user-active>
+    <return value="2"  message="This account existed and actived" />
+    <return value="1"  message="Account activate successfully" />
+    <return value="-1"  message="Wrong password" />
+  </user-active>
+  <user-account>
+    <return value="1"  message="Get account infomation successfully" />
+    <return value="-1"  message="Account not existed" />
+  </user-account>
+  <modify-password>
+    <return value="1"  message="Password modified successfully" />
+    <return value="-1"  message="Account not matched" />
+    <return value="-4"  message="Password inserted into DB failed" />
+  </modify-password>
+  <user-unbind>
+    <return value="1"  message="Unbind successfully" />
+    <return value="-1"  message="Unbind failed" />
+  </user-unbind>
+  <active>
+    <return value="201"  message="Account activate success" />
+    <return value="202"  message="Binding success"/>
+    <return value="203"  message=", valid until:"/>
+    <return value="204"  message="Transfer amount:"/>
+    <return value="205"  message="Balance transfer failed"/>
+    <return value="-201" message="Incorrect GUID"/>
+    <return value="-202" message="Incorrect factory config"/>
+    <return value="-203" message="Account expired"/>
+    <return value="-204" message="Error - Already bound to other mobile."/>
+    <return value="-205" message="Error - The mobile has been bind with other phone no., please do the account update"/>
+    <return value="-206" message="Fail to process WFS database"/>
+    <return value="-207" message="Account activate failure"/>
+    <return value="-213" message="Incorrect password"/>
+    <return value="-214" message="Fail to process billing database"/>
+    <return value="-222" message="Account creation failure"/>
+    <return value="-224" message="missing Phone number"/>
+    <return value="-225" message="missing GUID"/>
+    <return value="-226" message="missing account number"/>
+    <return value="-227" message="missing password"/>
+    <return value="-228" message="Radius server is not responding"/>
+    <return value="-101" message="Radius server is not responding"/>
+    <return value="-102" message="No return code, server reject"/>
+    <return value="-103" message="No return code, server reject"/>  
+  </active>
+  <query>
+    <return value="251"  message="Balance recharge is success, the account balance is $balance $currencyType,free talk service$FreeDuration minutes。the expiry date is till$validPeriod" />
+    <return value="252"  message="Account Balance:" />
+    <return value="253"  message=",Free Talk Time:" />
+    <return value="254"  message=",Vaild until:" />
+    <return value="-251" message="Incorrect ID or password." />
+    <return value="-252" message="Incorrect GUID" />
+    <return value="-253" message="Account expired" />
+  </query>
+  <recharge>
+    <return value="301"  message="Balance recharge is success,the account balance is 100CNY,free talk service 0 minutes。the expiry date is till 2008-8-8" />
+    <return value="302"  message="Account Balance:" />
+    <return value="303"  message=",Free Talk Time:" />
+    <return value="304"  message="mins" />
+    <return value="305"  message=",Vaild until:" />
+    <return value="306"  message=",Recharged amount:" />
+    <return value="-301" message="Error : Incorrect ID or password" />
+    <return value="-302" message="Error : Account expired" />
+    <return value="-303" message="Error : Account not found" />
+    <return value="-304" message="Error : Recharge card amount 0" />
+    <return value="-305" message="Error : Recharge card used" />
+    <return value="-306" message="Error : Invalid Distributor ID" />
+    <return value="-307" message="Error : Inconsistence currency" />
+    <return value="-308" message="Error : Recharge failed" />    
+    <return value="-309" message="Error to deduct amount from recharge card" />
+  </recharge>
+  <eload>
+    <return value="331"  message="空中充值成功，现已充值50CNY到13145889545账号；账户余额为1000CNY." />
+    <return value="332"  message="e-load success" />
+    <return value="333"  message="to phone number: " />
+    <return value="334"  message="; Account Balance" />
+    <return value="-331" message="e-load failed, please try again later" />
+    <return value="-332" message="Error : invalid phone no" />    
+    <return value="-333" message="e-load failed, please try again later" />
+    <return value="-334" message="Error : incorrect password" />
+    <return value="-335" message="Error :  recharge card used" />
+    <return value="-341" message="Error : Account expired" /> 
+    <return value="-343" message="e-load failed, please try again later" />
+    <return value="-344" message="e-load failed, please try again later" />
+    <return value="-345" message="e-load failed, please try again later" />
+    <return value="-347" message="e-load failed, please try again later" />
+    <return value="-346" message="e-load failed, please try again later" />
+    <return value="-348" message="e-load failed, please try again later" />
+  </eload>
+  <mpass>
+    <return value="351"  message="The new password is:" />
+    <return value="-351" message="Fail to update new password"/>
+    <return value="-352" message="Old password incorrect"/>
+    <return value="-353" message="Fail to update WFS password"/>
+    <return value="-354" message="Database error"/>
+    <return value="-355" message="Fail to update billing system password"/>
+    <return value="-101" message="Radius server is not responding"/>
+    <return value="-102" message="No return code, server reject"/>
+    <return value="-103" message="No return code, server reject"/>   
+  </mpass>
+  <unbind>
+    <return value="401"  message="Unbind success" />
+    <return value="-401" message="Error : GUID not found"/>
+    <return value="-402" message="Error : Incorrect password"/>
+    <return value="-403" message="Error : Inconsistence binding information"/>
+    <return value="-404" message="Unbind error, data error"/>
+    <return value="-405" message="This feature is not yet open"/>
+  </unbind>
+  <callback>
+    <return value="451"  message="Call success" />
+    <return value="-451" message="Account expired"/>
+    <return value="-452" message="Invalid ID or password"/>
+    <return value="-453" message="Old password incorrect"/>
+    <return value="-454" message="Error : Call Restricted"/>
+    <return value="-455" message="Not enough Balance"/>
+    <return value="-456" message="Call rejected - invalid phone number or remote user busy"/>
+    <return value="-458" message="Call busy or invalid phone number"/>
+  </callback>
+  <follow_me>
+    <return value="501"  message="Follow-me is activated - From " />
+    <return value="502"  message=" TO " />
+    <return value="-501" message="Please start the Followme feature"/>
+    <return value="-502" message="Set up to fail"/>
+  </follow_me>
+  <cfollow_me>
+    <return value="551"  message="Cancel successfully  - From " />
+    <return value="552"  message=" TO " />
+    <return value="-551" message="Please start the Followme feature"/>
+     <return value="-552" message="Cancellation failed"/>
+  </cfollow_me>
+  <grate>
+    <return value="521"  message="Caller Number: Called Number: This call rate: 0.1CNY / min" />
+    <return value="522"  message="Caller Number:" />
+    <return value="523"  message=",Called Number:" />
+    <return value="524"  message=".The call rates as follows:" />
+    <return value="525"  message="/min" />
+    <return value="-521" message="Account does not exist"/>
+    <return value="-552" message="The corresponding rates for non-existent"/>
+    <return value="-553" message="The corresponding rates for non-existent"/>
+  </grate>
+</ophone> 

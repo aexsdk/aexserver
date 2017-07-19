@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<return value="mc_qo_admin" message="System administrator" />
+	<return value="mc_qo_preferences" message="Preferences" />
+	<return value="mc_qo_profile" message="User profiles" />
+	<return value="mc_carriers" message="Carriers" />
+	<return value="mc_resalers" message="Resalers" />
+	<return value="mc_endpoints" message="Endpoints" />
+	<return value="mc_devices" message="Devices" />			
+	<return value="mc_charge_plans" message="Charge plans" />			
+	<return value="mc_financial" message="Financial" />
+	<return value="mc_voip_cdr" message="Call detail records" />
+	<return value="mc_vpn_cdr" message="Log for vpn" />
+	<return value="mc_voip_route" message="Route for voip" />
+	<return value="mc_vpn_route" message="Route for vpn" />
+	<return value="mc_log" message="Action log" />
+	<return value="mc_summary" message="系统概况" />
+	<return value="mc_setting" message="运营平台设置" />
+	
+	<return value="mm_qo_admin" message="System administrator" />
+	<return value="mm_qo_preferences" message="Preferences" />
+	<return value="mm_qo_profile" message="User profiles" />
+	<return value="mm_carriers" message="Carriers" />
+	<return value="mm_resalers" message="Resalers" />
+	<return value="mm_endpoints" message="Endpoints" />
+	<return value="mm_devices" message="Devices" />			
+	<return value="mm_charge_plans" message="Charge plans" />			
+	<return value="mm_financial" message="Financial" />
+	<return value="mm_voip_cdr" message="Call detail records" />
+	<return value="mm_vpn_cdr" message="VLog for vpn" />
+	<return value="mm_voip_route" message="Route for voip" />
+	<return value="mm_vpn_route" message="VRoute for vpn" />
+	<return value="mm_log" message="Action log" />
+	<return value="mm_summary" message="系统概述" />
+	<return value="mm_setting" message="运营平台设置" />
+
+	<return value="mt_qo_admin" message="&lt;b&gt;ystem administrator&lt;/b&gt;&lt;br&gt;在这里允许您管理您的桌面系统" />
+	<return value="mt_qo_preferences" message="&lt;b&gt;Preferences&lt;/b&gt;&lt;br&gt;在这里允许您修改系统的配置" />
+	<return value="mt_qo_profile" message="&lt;b&gt;User profiles&lt;/b&gt;&lt;br&gt;在这里允许您修改您的帐号信息" />
+	<return value="mt_carriers" message="&lt;b&gt;Carriers&lt;/b&gt;&lt;br&gt;在这里查看和修改运营商信息" />
+	<return value="mt_resalers" message="&lt;b&gt;Resalers&lt;/b&gt;&lt;br&gt;在这里查看和修改经销商信息" />
+	<return value="mt_endpoints" message="&lt;b&gt;Endpoints&lt;/b&gt;&lt;br&gt;在这里查看和修改终端帐号信息" />
+	<return value="mt_devices" message="&lt;b&gt;Devices&lt;/b&gt;&lt;br&gt;在这里查看和修改终端设备信息" />			
+	<return value="mt_charge_plans" message="&lt;b&gt;Charge plans&lt;/b&gt;&lt;br&gt;在这里可以查看和设计计费方案" />			
+	<return value="mt_financial" message="&lt;b&gt;Financial&lt;/b&gt;&lt;br&gt;在这里查看可以充值、查询充值记录" />
+	<return value="mt_voip_cdr" message="&lt;b&gt;Call detail records&lt;/b&gt;&lt;br&gt;在这里查询语音通话记录" />
+	<return value="mt_vpn_cdr" message="&lt;b&gt;VLog for vpn&lt;/b&gt;&lt;br&gt;在这里查询VPN登录记录" />
+	<return value="mt_voip_route" message="&lt;b&gt;Route for voip&lt;/b&gt;&lt;br&gt;在这里查看和修改路由设置" />
+	<return value="mt_vpn_route" message="&lt;b&gt;Route for vpn&lt;/b&gt;&lt;br&gt;在这里查看和修改VPN的路由设置" />
+	<return value="mt_log" message="&lt;b&gt;Query action logs&lt;/b&gt;&lt;br&gt;Query and view action logs" />
+	<return value="mt_summary" message="&lt;b&gt;系统概述&lt;/b&gt;&lt;br&gt;在这里可以查询分析系统运行状态" />
+	<return value="mt_setting" message="&lt;b&gt;运营平台设置&lt;/b&gt;&lt;br&gt;在这里您可以设置系统运营的参数" />
+
+</module>

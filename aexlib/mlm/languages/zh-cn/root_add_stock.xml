@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root_add_stock>
+	<return value="-251"  message="出库人的信息验证失败，代码[%d]。" />
+	<return value="-252"  message="入库人的信息验证失败，代码［%d］。" />
+	<return value="-253"  message="不属于同一网络，不能充值，代码[%d]。" />
+	<return value="-254"  message="不能给自己充值，代码［%d］。" />
+	<return value="-255"  message="运营商增加库存金额失败，代码[%d]。" />
+	<return value="-256"  message="出库人的库存余额不足，代码［%d］。" />
+	<return value="-257"  message="入库人的库存余额扣除失败，代码[%d]。" />
+	<return value="251"  message="运营商增加库存金额成功，代码［%d］。" />
+	<return value="252"  message="运营商增加库存金额成功，代码［%d］。" />	
+</root_add_stock>

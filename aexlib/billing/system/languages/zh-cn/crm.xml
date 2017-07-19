@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<crm>
+	<return value="451"  message="提交成功,正在群呼中..." />
+	<return value="-101"  message="提交IVR文件错误,请重试" />
+	<return value="-105"  message="数据库执行失败" />
+	<return value="recharge:301"  message="充值成功%2$s%3$s%4$s。代码[%1$d]。" />
+	<return value="recharge:302"  message="本次充值金额为:%1$s%2$s;。" /> 
+	<return value="recharge:303"  message="当前账户余额为:%1$s%2$s" /> 
+	<return value="recharge:304"  message="有效期至:%s" /> 
+	<return value="recharge:305"  message="免费通话时长为:%s分钟" />
+	<return value="recharge:306"  message="资费套餐为：%s"/>
+	<return value="recharge:307"  message="租期至：%s"/>
+	<return value="recharge:-301" message="充值失败，充值卡账号或者密码错误,代码［%1$d］。" /> 
+	<return value="recharge:-302" message="充值失败，计费账号已过期,代码［%1$d］。" /> 
+	<return value="recharge:-303" message="充值失败，计费账号不存在,代码［%1$d］。" /> 
+	<return value="recharge:-304" message="充值失败，该充值卡金额为不足,代码［%1$d］。" /> 
+    <return value="recharge:-305" message="充值失败，该充值卡已经被使用,代码［%1$d］。" /> 
+	<return value="recharge:-306" message="充值失败，充值卡的代理商与手机帐号属于不同的代理商,代码［%1$d］。" /> 
+	<return value="recharge:-307" message="充值失败，手机帐号与目的帐号货币类型不一致,代码［%1$d］。" /> 
+	<return value="recharge:-308" message="充值失败，代码［%1$d］。" /> 
+	<return value="recharge:-309" message="充值失败，扣减充值卡余额失败,代码［%1$d］" /> 
+	<return value="add_server_member:-1" message="添加客服人员失败" /> 
+	<return value="add_server_member:1" message="添加客服人员成功" /> 
+	<return value="add_server_member:-2;" message="添加呼叫队列失败" /> 
+	<return value="add_server_member:-3" message="客服编号已经存在" /> 
+	<return value="add_server_member:-4" message="客服号码已经存在" /> 
+	<return value="add_server_member:-5" message="获取号码路由失败" /> 
+	<return value="add_server_member:-6" message="设置号码路由失败" />
+	<return value="edit_server_member:-1" message="修改客服人员失败" /> 
+	<return value="edit_server_member:1" message="修改客服人员成功" /> 
+	<return value="edit_server_member:-2;" message="添加呼叫队列失败" /> 
+	<return value="edit_server_member:-3" message="客服编号已经存在" /> 
+	<return value="edit_server_member:-4" message="客服号码已经存在" /> 
+	<return value="del_server_member:-1" message="删除客服信息失败" /> 
+	<return value="del_server_member:1" message="删除客服信息成功" /> 
+</crm>

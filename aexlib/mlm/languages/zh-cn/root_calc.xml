@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root_calc>
+	<return value="101" message="计算%2$d的网络奖金的任务已经成功提交，代码[%1$d]"/>
+	<return value="-305"  message="网络管理员%2$d的信息验证失败，代码[%1$d]。" />
+</root_calc>

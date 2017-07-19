@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<query>
+	<return value="500"  message="Account Balance：%s"/>
+	<return value="501"  message="Free Talk Time：%s minutes"/>
+	<return value="502"  message="Charges：%s"/>
+	<return value="503"  message="Vaild until：%s"/>
+	<return value="504"  message="Hire:%s/%s,Lease：%s"/>
+	<return value="251"  message="The account balance is %2$s%3$s%4$s%5$s%6$s%7$s%8$s Return code[%1$s]"/>
+	<return value="-251"  message="Query balance failure，Incorrect pin or password。代码［%1$d］。" />
+	<return value="-252" message="Query balance failure，Incorrect GUID。Return code［%1$d］。" />
+	<return value="-253" message="Query balance failure，Account expired。Return code［%1$d］。" />
+</query>

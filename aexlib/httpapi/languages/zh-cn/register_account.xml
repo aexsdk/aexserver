@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<active>
+	<return value="-208" message="获取帐号信息失败，Radius执行错误。代码[%d]。"/>
+</active>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<update>
+	<return value="251"  message="更新配置成功,您激活绑定的手机号码是%2$s 代码[%1$s]"/>
+	<return value="252"  message="更新配置成功" />
+	<return value="-100" message="服务器错误，请与管理员联系，代码[%1$s]" />
+	<return value="-101" message="设备表中设备信息不存在，也没有设置VID和PID信息，代码[%1$s]"/>
+	<return value="-102" message="设备已经过了激活期，不能激活，代码[%1$s]"/>
+	<return value="-103" message="设备找到但是运营商参数有误，代码[%1$s]"/>
+</update>

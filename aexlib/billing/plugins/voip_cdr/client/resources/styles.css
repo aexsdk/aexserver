@@ -1,0 +1,12 @@
+/*
+ * qWikiOffice Desktop 1.0
+ * Copyright(c) 2007-2008, Integrated Technologies, Inc.
+ * licensing@qwikioffice.com
+ *
+ * http://www.qwikioffice.com/license
+ */
+
+.m-voip-cdr-icon { background-image: url(images/icon.gif) !important; }
+.m-voip-cdr-shortcut-icon { background-image: url(images/shortcut-icon.png) !important; }
+#qo-profile .x-panel-footer { background-color:transparent; border-top:0 none; }
+#qo-profile .x-statusbar .x-status-error { background:transparent url(images/exclamation16x16.gif) no-repeat 3px 3px; color:#cc3333; cursor:pointer; padding-left:25px; }

@@ -1,0 +1,44 @@
+/* #qo-admin .x-layout-split { height:1px; width:1px; } */
+.qo-admin-icon { background-image: url(images/qo-admin-icon16x16.gif) !important; }
+.x-btn-medium .qo-admin-icon { background-image: url(images/qo-admin-icon24x24.gif) !important; }
+.x-btn-large .qo-admin-icon { background-image: url(images/qo-admin-icon32x32.gif) !important; }
+.qo-admin-shortcut-icon { background-image: url(images/qo-admin-icon48x48.png) !important; }
+
+.prev-link-item-icon { float: left; }
+.prev-link-item-txt { float: left; padding-top:10px; }
+.pref-percent-field { background:#ffffff url(images/percent-icon.gif) no-repeat right center; }
+
+.qo-admin-members { background-image:url(images/admin-members.png) !important; }
+.qo-admin-groups-icon { background-image:url(images/groups48x48.png); background-repeat:none; border:0 none; height:48px; width:48px; }
+.qo-admin-members-icon { background-image:url(images/members48x48.png); background-repeat:none; border:0 none; height:48px; width:48px; }
+.qo-admin-privileges-icon { background-image:url(images/key48x48.png); background-repeat:none; border:0 none; height:48px; width:48px; }
+.qo-admin-signups-icon { background-image:url(images/signups48x48.png); background-repeat:none; border:0 none; height:48px; width:48px; }
+.qo-admin-inactive { color:#ff0000 !important; }
+#qo-admin-status { background-color:#f1f1f1; }
+.qo-admin-group { background-image:url(images/group16x16.gif) !important; }
+.qo-admin-app { background-image:url(images/app16x16.gif) !important; }
+.qo-admin-member { background-image:url(images/member16x16.gif) !important; }
+.qo-admin-method { background-image:url(images/action16x16.gif) !important; }
+.qo-admin-privilege { background-image:url(images/key16x16.gif) !important; }
+#qo-admin-nav-list li { float:left; text-align:center; width:75px; }
+#qo-admin-nav-list a { color:#0000ff; text-decoration:none; }
+
+/* begin: detail panel */
+.qo-admin-detail .x-panel-body p { padding:10px; }
+
+.qo-admin-add { background-image:url(images/add-member.png) !important; }
+.qo-admin-edit { background-image:url(images/edit-member.gif) !important; }
+.qo-admin-delete { background-image:url(images/delete-member.png) !important; }
+.qo-admin-refresh { background-image:url(images/action-refresh16x16.gif) !important; }
+#qo-admin .x-panel-tbar-noheader .x-toolbar,
+#qo-admin .x-panel-mc .x-panel-tbar .x-toolbar { border-top:0 none; }
+#qo-admin .x-window-tbar .x-toolbar { border-bottom:0 none !important; }
+#qo-admin .x-tab-strip-closable .x-tab-left{ padding-right:20px; }
+#qo-admin-detail-table { width:100% }
+#qo-admin-detail-table td { vertical-align:top; }
+.qo-admin-edit-btn { text-align:right; }
+
+/* begin: combobox */
+.qo-admin-group-item { border:1px solid #fff; border-bottom:1px solid #eeeeee; color:#555; font:normal 11px tahoma, arial, helvetica, sans-serif; padding:3px 10px 3px 10px; white-space:normal; }
+.qo-admin-group-item h3 { color:#222; display:block; font:inherit; font-weight:bold; }
+.qo-admin-group-item h3 span { clear:none; display:block; float: right; font-weight:normal; margin:0 0 5px 5px; width:40px; }

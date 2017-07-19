@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dt_unbind>
+	<return value="101"  message="取消绑定成功" />
+	<return value="-103"  message="信息不存在,取消绑定失败" />
+	<return value="-101"  message="取消绑定失败" />
+</dt_unbind>

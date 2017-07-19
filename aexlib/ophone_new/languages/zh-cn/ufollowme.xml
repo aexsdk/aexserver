@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<follow_me>
+  		<return value="501"  message="呼叫转移成功；代码［%1$d］  " />
+  		<return value="-501" message="请启动FollowMe功能，代码［%1$d］"/>
+    	<return value="-502" message="设置失败，代码［%1$d］"/>
+    	<return value="-503" message="该功能配置信息不存在，功能未开启，代码［%1$d］"/>
+</follow_me>

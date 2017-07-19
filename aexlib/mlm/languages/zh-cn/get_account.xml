@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<account_info>
+	<return value="101"  message="查询账号信息成功，代码［%d］。" />
+	<return value="-101"  message="查询失败，请稍后再试，代码［%d］。" />
+</account_info>

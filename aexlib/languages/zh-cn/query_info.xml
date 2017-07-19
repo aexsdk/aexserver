@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<query>
+	<return value="101"  message="号码%2$s的终端帐号是%3$s，&#13;&#10;账户余额是%4$s元.&#13;&#10;状态为:%5$s.&#13;&#10;密码为:%6$s。&#13;&#10;代码[%1$s]"/>
+	<return value="-101"  message="查询帐号信息失败，号码%2$s未绑定系统帐号。代码［%1$d］。" />
+	<return value="-102" message="查询帐号信息失败，号码%2$s绑定帐号错误。代码［%1$d］。" />
+	<return value="-103" message="号码%2$s绑定的帐号不属于你的经销商。代码［%1$d］。" />
+</query>

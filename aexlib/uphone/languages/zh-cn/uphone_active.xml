@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<common>
+	<return value="101"  message="激活成功" />
+	<return value="-101"  message="该产品未开启该功能" />
+	<return value="-102"  message="该设备没有入库" />
+	<return value="-103"  message="该设备没有出库" />
+	<return value="-104"  message="获取参数信息失败" />				
+	<return value="-105"  message="数据异常" />		
+	<return value="-106"  message="插入E164失败" />	
+	<return value="-107"  message="插入话费帐号失败" />	
+	<return value="-108"  message="插入会员费帐号失败" />	
+	<return value="-109"  message="获取号码失败" />	
+	<return value="-110"  message="数据异常" />	
+	<return value="-111"  message="生成用户信息失败" />	
+	<return value="-112"  message="生成帐号信息失败" />	
+	<return value="-113"  message="数据异常" />	
+</common>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vpn_delete>
+	<return value="101"  message="设置成功" />
+	<return value="-101"  message="E164不存在" />
+	<return value="-102"  message="数据插入失败" />
+</vpn_delete>

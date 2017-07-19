@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bonus>
+	<return value="-101"  message="手机账号验证失败，代码[%d]。" />
+</bonus>

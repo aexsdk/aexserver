@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<active>
+	<return value="101"  message="用户%2$s执行命令%3$s执行完成，代码[%1$d]。" />
+
+	<return value="-101"  message="用户%2$s执行没有实现的命令%3$s，代码[%1$d]。" />
+	<return value="-102"  message="用户%2$s执行命令%3$s的参数格式有错误，代码[%1$d]。" />
+</active>

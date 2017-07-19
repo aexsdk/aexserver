@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sms_sender>
+	<return value="CB:0001" message="非神州行预付费用户" />
+	<return value="CB:0005" message="PPS用户状态异常（包括未头次使用、储值卡被封锁、储值卡进入保留期、储值卡挂失）" />
+	<return value="CB:0007" message="用户余额不足" />
+	<return value="CA 0054" message="发送消息失败" />
+	<return value="CB 0001" message="非神州行预付费用户（用户已经被销号）" />
+	<return value="CB 0002" message="数据库操作失败" />
+	<return value="CB 0053" message="梦网用户不存在" />
+	<return value="CB0005" message="移动用户帐户数据异常" />
+	<return value="CB0007" message="用户余额不足" />
+	<return value="DELIVRD" message="消息发送成功" />
+	<return value="EXPIRED" message="表示因为用户长时间关机或者不在服务区等导致的短信息超时没有递交到用户手机上" />
+	<return value="REJECTD" message="消息因为某些原因被拒绝" />
+	<return value="UNDELIV" message="表示全球通用户因为状态不正确如处于停机、挂起等状态而导致的用户无法享受服务" />
+	<return value="MC:xxxx" message="系统未从短信中心接收到状态报告" />
+	<return value="MC:xxxx" message="没有从SMSC处接收到状态报告时的状态报告" />
+	<return value="MI:xxxx" message="同“EXPIRED”" />
+	<return value="MN:xxxx" message="同“REJECTD”" />
+	<return value="MB:0066" message="短信中心回的，超作最大发送次数 可能是手机满了。" />
+	<return value="MK:0015" message="可能是手机满了。" />
+	<return value="MK:xxxx" message="同“UNDELIV”" />
+	<return value="MA:0054" message="超时未接收到响应消息. 移动内部错误. 不处理" />
+	<return value="DB:0100" message="手机号码不存在" />
+	<return value="DB:0101" message="手机号码错误" />
+	<return value="DB:0102" message="用户停机 用户冲值后，要主动上行一条信息到SP，才能激活用户的短信接收服务" />
+	<return value="DB:0103" message="用户欠费" />
+	<return value="DB:0104" message="用户没有使用该业务的权限" />
+	<return value="DB:0105" message="业务代码错误" />
+	<return value="DB:0106" message="服务代码错误" />
+	<return value="DB:0107" message="业务不存在" />
+	<return value="DB:0108" message="该业务暂停服务" />
+	<return value="DB:0109" message="该服务种类不存在" />
+	<return value="DB:0110" message="该服务种类尚未开通" />
+	<return value="DB:0111" message="该业务尚未开通" />
+	<return value="DB:0112" message="SP代码错误" />
+	<return value="DB:0113" message="SP不存在" />
+	<return value="DB:0114" message="SP暂停服务" />
+	<return value="DB:0115" message="用户没有定购该业务" />
+	<return value="DB:0116" message="用户暂停定购该业务" />
+	<return value="DB:0117" message="该业务不能对该用户开放" />
+	<return value="DB:0118" message="用户已经订购了该业务" />
+	<return value="DB:0119" message="用户不能取消该业务" />
+	<return value="DB:0120" message="话单格式错误" />
+	<return value="DB:0121" message="没有该类业务" />
+	<return value="DB:0122" message="接收异常" />
+	<return value="DB:0123" message="业务价格为负" />
+	<return value="DB:0124" message="业务价格格式错误" />
+	<return value="DB:0125" message="业务价格超出范围" />
+	<return value="DB:0126" message="该用户不是神州行用户" />
+	<return value="DB:0127" message="该用户没有足够的余额" />
+	<return value="DB:0128" message="补款,冲正失败" />
+	<return value="DB:0129" message="用户已经是梦网用户" />
+	<return value="DB:0130" message="用户在BOSS中没有相关用户数据" />
+	<return value="DB:0131" message="BOSS系统数据同步出错" />
+	<return value="DB:0132" message="相关信息不存在" />
+	<return value="DB:0133" message="用户数据同步出错" />
+	<return value="DB:0134" message="SP数据同步出错" />
+	<return value="DB:0135" message="业务数据同步出错" />
+	<return value="DB:0136" message="用户密码错误" />
+	<return value="DB:0137" message="伪码信息错误" />
+	<return value="DB:0138" message="用户相关信息不存在" />
+	<return value="DB:0140" message="用户未点播该业务" />
+	<return value="DB:9001" message="网络异常" />
+	<return value="DB:9007" message="业务网关超过限制的流量" />
+</sms_sender>

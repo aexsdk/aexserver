@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<add_reorder>
+	<return value="-101"  message="手机和手机号验证失败，代码[%d]。" />
+	<return value="-102"  message="手机和登录名验证失败，代码[%d]。" />
+	<return value="-103"  message="推荐人验证失败，代码[%d]。" />
+	<return value="-104"  message="管理人验证失败，请检查管理人栏信息，代码[%d]。" />
+	<return value="-105"  message="无效订单，代码[%d]。" />
+	<return value="-106"  message="就位失败，代码[%d]。" />
+	<return value="-107"  message="占位失败，代码[%d]。" />
+	<return value="-108"  message="该订单已经报过单，若有问题，请联系商城，代码[%d]。" />
+	<return value="-109"  message="该订单金额为0，代码[%d]。" />
+	<return value="-110"  message="被推荐人已经存在，代码[%d]。" />
+	<return value="-111"  message="订单金额达不到最低报单金额，代码[%d]。" />
+	<return value="-112"  message="该用户出库金额不足，代码[%d]。" />
+	<return value="-202"  message="订单代码无效，代码[%d]。" />	
+</add_reorder>

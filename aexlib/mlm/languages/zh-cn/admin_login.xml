@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ADMIN_LOGIN>
+	<return value="-201"  message="登录失败，手机账号或者密码不正确。代码［%d］。" />
+</ADMIN_LOGIN>

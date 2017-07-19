@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<applay_bonus>
+	<return value="201"  message="已经将%2$d奖金转入%3$s帐号，代码[%1$d]。" />
+	<return value="521"  message="已经将%2$d奖金转入%3$s帐号，代码[%1$d]。" />
+	<return value="-521"  message="手机账号验证失败，代码[%1$d]。" />
+	<return value="-522"  message="没有找到要结算的用户，代码[%1$d]。" />
+	<return value="-523"  message="结算金额大于实际金额，代码[%1$d]。" />
+	<return value="-524"  message="专卖店没有找到，代码[%1$d]。" />
+	<return value="-525"  message="结算金额不能为0，代码[%1$d]。" />
+</applay_bonus>

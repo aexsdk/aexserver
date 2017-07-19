@@ -1,0 +1,100 @@
+{
+   "launcherText": "Manage carriers"
+   , "launcherTooltip": "<b>Manage carriers</b><br />Allow you to view and modify your carriers information."
+   , "Home": "Home"
+   , "data": {
+		"nav": [
+		     {
+		     	"cls": "ez-carriers-icon"
+		     	, "id": "viewCarriers"
+		     	, "text": "Manage carrier server"
+		     	, "description": "View and modify carrier's server parameters"
+		     }
+		     , {
+		        "cls": "ez-products-icon"
+		        , "id": "viewProducts"
+		        , "text": "Manage products"
+		        , "description": "View and modify product's parameters"
+		     }
+		     , {
+		        "cls": "ez-devices-icon"
+		        , "id": "viewDevices"
+		        , "text": "Manage devices"
+		        , "description": "View and modify device's stock,status and so on."
+		     }
+		     , {
+		        "cls": "ez-test-icon"
+		        , "id": "viewTest"
+		        , "text": "Test device update"
+		        , "description": "Test device update configuration."
+		     }
+		]
+   }
+   ,"Carriers":"Carriers"
+   ,"Products":"Products"
+   ,"Devices":"Devices"
+   ,"Test":"Update test"
+
+   ,"ProductsTile":"Add new product"
+   ,"Close":"Close"
+   ,"Cancel":"Cancel"
+   ,"Save":"Save"
+   ,"WhereEx":"Filter"
+   ,"Query":"Query"
+   ,"field":{
+   		"id":"ID"
+   		,"email":"EMail"
+   		,"active":"Active"
+   		,"save_config":"Save Changes"
+   		,"refresh":"Refresh"
+   		,"add":"Add"
+   		,"add_new_carriers":"Add a new carrier"
+   		,"delete":"Delete"
+   		,"delete_selected":"Delete selected"
+   		,"refreshing":"Refresh..."
+   		,"view":"View"
+   		,"edit":"Edit"
+   		,"description":"Description"
+   		,"contact":"Contact"
+   		,"billing_api":"API Parameters"
+   		,"oem_param":"OEM Parameters"
+   		,"params":"Configurations"
+   		,"Name":"Carrier Name"
+   	}
+   	,"devices_grid":{
+		"bsn" 	:	"BSN"
+		,"imei" 	: "IMEI"
+		,"status" : "Status"
+		,"is_time" :	"Instock"
+		,"os_time" 	:	"Outstock"
+		,"active_time" 	:	"Active time"
+		,"va_time" 	:	"Active vaild time"
+		,"vc_time" 	:	"Charge vaild time"
+		,"charge_plan" 	: 	"default charge plan"
+		,"resaler" 	: 	"Resaler"
+		,"bind_pno" 	:	"Cell phone"
+		,"bind_epno" 	: 	"Endpoint No."
+		,"carrier_id"	:	"Carrier"
+		,"VID" 	:"Vendor ID"
+		,"PID" 	: "Product ID"
+		,"remark" 	: "Remark"
+   	}
+   	,"products_grid":{
+		"VID"  : "Vendor ID"
+		,"PID" : "Product ID"
+		,"name" : "Name"
+		,"description"  : "Description"
+		,"carrier_id" : "Carrier"
+		,"charge_plan" : "Charge Plan"
+		,"parameters" : "Parameters"
+	}
+	,"products_form":{
+		"VID"  : "Vendor ID"
+		,"PID" : "Product ID"
+		,"name" : "Name"
+		,"description"  : "Decription"
+		,"carrier_id" : "Carrier"
+		,"charge_plan" : "Charge Plan"
+		,"parameters" : "Parameters"
+	}
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<login>
+	<return value="win_title"  message="系统登录" />
+	<return value="btn_login"  message="登录" />
+	<return value="fl_language"  message="界面语言" />
+	<return value="fl_user_name"  message="用户名" />
+	<return value="fl_password"  message="密码" />
+	<return value="flc_save"  message="保存个人信息" />
+	<return value="flc_mode"  message="全屏模式" />
+	<return value="tt_EmailTypeText"  message="请输入您的帐号或邮箱地址" />
+	<return value="tt_PassTypeText"  message="请输入您的密码" />
+	<return value="msg_Pls_select_lang"  message="请选择语言" />
+	<return value="msg_MustInput"  message="您需要输入用户名和密码才可以登录！" />
+	<return value="msg_Plswaiting"  message="请稍候..." />
+	<return value="msg_Redirecting"  message="正在装载系统..." />
+	<return value="tt_ResalerText" message="请输入代理商代码" />
+	<return value="fl_resaler" message="经销商" />
+	<return value="login_fail_code" message="登录失败，代码%d。" />
+	<return value="fl_signed_code" message="验证码" />
+	<return value="tt_signed_codeText" message="请输入验证码" />
+</login>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfollow_me>
+  		<return value="551"  message="解除呼叫转移成功!代码［%1$d］  " />
+  		<return value="552"  message=" 到 " />
+  		<return value="-551" message="请启动FollowMe功能,代码［%1$d］"/>
+    	<return value="-552" message="取消失败,代码［%1$d］"/>
+    	<return value="-503" message="该功能配置信息不存在，功能未开启，代码［%1$d］"/>
+</cfollow_me>

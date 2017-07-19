@@ -1,0 +1,109 @@
+/*
+ * qWikiOffice Desktop 1.0
+ * Copyright(c) 2007-2008, Integrated Technologies, Inc.
+ * licensing@qwikioffice.com
+ *
+ * http://www.qwikioffice.com/license
+ */
+
+.m-resalers-icon { background-image: url(images/icon.gif) !important; }
+.m-resalers-shortcut-icon { background-image: url(images/shortcut-icon.png) !important; }
+#qo-profile .x-panel-footer { background-color:transparent; border-top:0 none; }
+#qo-profile .x-statusbar .x-status-error { background:transparent url(images/exclamation16x16.gif) no-repeat 3px 3px; color:#cc3333; cursor:pointer; padding-left:25px; }
+
+/* styles for action rows */
+.ux-row-action-cell .x-grid3-cell-inner {
+	padding:1px 0 0 0;
+}
+.ux-row-action-item {
+	float:right;
+	min-width:16px;
+	height:16px;
+	background-repeat:no-repeat;
+	margin: 0 18px 0 2px;
+/*	margin: 1px 5px 0 2px; */
+	cursor:pointer;
+	overflow:hidden;
+}
+.ext-ie .ux-row-action-item {
+	width:16px;
+}
+.ext-ie .ux-row-action-text {
+	width:auto;
+}
+.ux-row-action-item span {
+	vertical-align:middle;
+	padding:0 0 0 20px;
+	line-height:18px;
+}
+.ext-ie .ux-row-action-item span {
+	width:auto;
+}
+
+/* styles for groups */
+.x-grid-group-hd div {
+	position:relative;
+	height:16px;
+}
+.ux-grow-action-item {
+	min-width:16px;
+	height:16px;
+	background-repeat:no-repeat;
+	background-position: 0 50% ! important;
+	margin: 0 0 0 4px;
+	padding: 0 ! important;
+	cursor:pointer;
+	float:left;
+}
+.ext-ie .ux-grow-action-item {
+	width:16px;
+}
+.ux-action-right {
+	float:right;
+	margin: 0 10px 0 2px;
+	padding: 0 ! important;
+}
+.ux-grow-action-text {
+	padding: 0 ! important;
+	margin:0 ! important;
+	background:transparent none ! important;
+	float:left;
+}
+
+/* eof */
+.icon-resaler-view {  
+	background-image:url(images/icons/application_form.png) ! important;
+}
+.icon-resaler-oem-edit {  
+	background-image:url(images/icons/application_edit.png) ! important;
+}
+.icon-resaler-config-edit {  
+	background-image:url(images/icons/database_edit.png) ! important;
+}
+.icon-resaler-chargeplan-edit {  
+	background-image:url(images/icons/page_edit.png) ! important;
+}
+.icon-resaler-billing-edit {  
+	background-image:url(images/icons/chart_curve_edit.png) ! important;
+}
+
+
+
+
+.editIconCss {
+	background-image : url(/images/icons/application_form_edit.png) ! important;
+}
+.addIconCss {
+	background-image:url(/images/icons/application_form_add.png) ! important;
+}
+.deleteIconCss {
+	background-image:url(/images/icons/application_form_delete.png) ! important;
+}
+.refreshIcon {
+	background-image:url(/images/icons/database_refresh.png) ! important;
+}
+.selectIconCss {
+	background-image:url(/images/icons/application_view_list.png) ! important;
+}
+
+/*  Icon Classes end */

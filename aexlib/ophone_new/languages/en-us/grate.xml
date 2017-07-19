@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grate>
+  		<return value="521"  message="Caller number is:%4$s,Callee number is:%5$s;This call rate:%2$s%3$s/minutes。Return code［%1$d］" />
+  		<return value="522"  message="Caller number is:" />
+  		<return value="523"  message=",Callee number is:" />
+  		<return value="524"  message=".The call rates is:" />
+  		<return value="525"  message="/minutes." />
+  		<return value="-521" message="Query rate failure，Account miss。Return code［%1$d］"/>
+    	<return value="-552" message="Query rate failure，Corresponding rate does not exist。Return code［%1$d］"/>
+    	<return value="-553" message="Query rate failure，Corresponding rate does not exist。Return code［%1$d］"/>
+</grate>

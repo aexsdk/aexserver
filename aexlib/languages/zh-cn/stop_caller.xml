@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<query>
+	<return value="101"  message="已经为号码%2$s退卡，帐号内余额%3$s。 代码[%1$s]"/>
+	<return value="-101"  message="为号码%2$s退卡失败。代码［%1$d］。" />
+	<return value="-102" message="为号码%2$s退卡失败。代码［%1$d］。" />
+	<return value="-103"  message="充值失败，代码[%1$d]。"/>
+	<return value="-104"  message="代理商认证失败，代码[%1$d]。"/>
+	<return value="-105"  message="代理商帐户余额不足，代码[%1$d]。"/>
+	<return value="-106"  message="帐号不存在，代码[%1$d]。"/>
+	<return value="-110"  message="没有设置代理商参数，请与管理员联系"/>
+</query>

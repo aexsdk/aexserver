@@ -1,0 +1,120 @@
+{
+   "launcherText": "虚拟运营商管理"
+   , "launcherTooltip": "<b>虚拟运营商管理</b><br />允许您修改和管理虚拟运营平台资料。"
+   , "Home": "主页"
+   , "data": {
+		"nav": [
+		     {
+		     	"cls": "ez-carriers-icon"
+		     	, "id": "viewCarriers"
+		     	, "text": "管理虚拟运营平台"
+		     	, "description": "查看和修改虚拟平台的参数"
+		     }
+		     , {
+		        "cls": "ez-products-icon"
+		        , "id": "viewProducts"
+		        , "text": "管理终端产品"
+		        , "description": "查看和修改终端产品的参数"
+		     }
+		     , {
+		        "cls": "ez-devices-icon"
+		        , "id": "viewDevices"
+		        , "text": "管理终端设备"
+		        , "description": "查看库存以及出库终端产品的信息以及状态"
+		     }
+		     , {
+		        "cls": "ez-test-icon"
+		        , "id": "viewTest"
+		        , "text": "模拟设备更新配置"
+		        , "description": "在此可以模拟设备更新配置，以检验系统设置。"
+		     }
+		]
+   }
+   ,"Carriers":"虚拟运营商"
+   ,"Products":"终端产品"
+   ,"Devices":"终端设备"
+   ,"Test":"更新测试"
+   
+   ,"ProductsTile":"添加终端产品"
+   ,"Close":"关闭"
+   ,"Cancel":"取消"
+   ,"Save":"保存"
+   ,"WhereEx":"查询条件"
+   ,"Query":"查询"
+   ,"field":{
+   		"id":"标识"
+   		,"email":"邮箱"
+   		,"active":"激活"
+   		,"save_config":"保存修改"
+   		,"refresh":"刷新"
+   		,"add":"添加"
+   		,"add_new_carriers":"添加新的虚拟运营商"
+   		,"del":"删除"
+   		,"delete_selected":"删除选中的"
+   		,"refreshing":"正在刷新..."
+   		,"view":"查看"
+   		,"edit":"编辑"
+   		,"description":"说明"
+   		,"contact":"联系人"
+   		,"billing_api":"API参数"
+   		,"oem_param":"OEM参数"
+   		,"params":"配置参数"
+   		,"Name":"运营商名称"
+   	}
+   	,"devices_grid":{
+		"bsn" 	:	"BSN代码"
+		,"imei" 	: "IMEI或者序列号"
+		,"status" : "状态"
+		,"is_time" :	"入库时间"
+		,"os_time" 	:	"出库时间"
+		,"active_time" 	:	"激活时间"
+		,"va_time" 	:	"有效期"
+		,"vc_time" 	:	"套餐有效期"
+		,"charge_plan" 	: 	"默认套餐"
+		,"resaler" 	: 	"代理商"
+		,"bind_pno" 	:	"绑定手机号码"
+		,"bind_epno" 	: 	"绑定终端帐号"
+		,"carrier_id"	:	"运营商"
+		,"VID" 	:"VID"
+		,"PID" 	: "PID"
+		,"remark" 	: "备注	"
+		,"product_type": "产品类型"
+		,"user_cs": "用户计费方案"
+		,"agent_cs": "代理商计费方案"
+		,"agent_id": "代理商名称"
+		,"balance": "余额"
+		,"currency_type": "货币类型"
+		,"valid_date": "有效期"
+		,"free_period": "免费时长"
+		,"hire_number": "租期"
+   	}
+	,"devices_form":{
+		"title" 	:	"修改终端设备"
+		,"addtitle" :	"添加终端设备"
+		,"base_info_title": "终端设置基本信息"
+		,"billing_info_title": "终端计费信息"
+		,"f_page": "欢迎使用添加终端设备功能"
+		,"s_page": "请选择出入库信息"
+		,"t_page": "根据代理商确定详细的资费信息"
+		,"c_name_empty_text" : "请选择运营商名称"
+   	}
+   	,"products_grid":{
+		"VID"  : "VID"
+		,"PID" : "PID"
+		,"name" : "产品名称"
+		,"description"  : "产品描述"
+		,"carrier_id" : "运营商"
+		,"charge_plan" : "默认套餐"
+		,"parameters" : "产品参数"
+	}
+	,"products_form":{
+		"VID"  : "VID"
+		,"PID" : "PID"
+		,"name" : "产品名称"
+		,"description"  : "产品描述"
+		,"carrier_id" : "运营商"
+		,"charge_plan" : "默认套餐"
+		,"parameters" : "产品参数"
+	}
+}
+ 

@@ -1,0 +1,72 @@
+{
+	"launcherText": "Endpoints"
+   	, "launcherTooltip": "<b>Endpoints</b><br />Allows you to modify endpoints"
+   	, "Home": "Home"
+   	, "data": {
+		"nav": [
+		     {
+		     	"cls": "qo-admin-groups-icon"
+		     	, "id": "viewGroups"
+		     	, "text": "Groups"
+		     	, "description": "Manage your desktp's groups"
+		     }
+		     , {
+		        "cls": "qo-admin-members-icon"
+		        , "id": "viewMembers"
+		        , "text": "Members"
+		        , "description": "Manage your desktop's members"
+		     }
+		     , {
+		        "cls": "qo-admin-privileges-icon"
+		        , "id": "viewPrivileges"
+		        , "text": "Privileges"
+		        , "description": "Manage your desktop's privileges"
+		     }
+		     , {
+		        "cls": "qo-admin-signups-icon"
+		        , "id": "viewSignups"
+		        , "text": "Signups"
+		        , "description": "Manage signups members"
+		     }
+		]
+   	}
+   	, "Title" : "账务管理"
+   	, "Tooltip" : "账务管理" 
+   	, "Version" : "V1.0.0.0 Bata" 
+   	, "Author" : "Power by 2010.4 " 
+   	, "Ok" : "确定" 
+	, "Cancel" : "取消" 
+  	, "Query" :	"查询" 
+  	, "Rechage" :	"充值" 
+  	, "Filter" :	"过滤条件" 
+  	, "FilterText" :	"可以输入带?和%通配符的帐号、手机号码或者设备序列号" 
+  	, "Actions" : "操作" 
+  	, "View" : "查看" 
+  	, "ViewTooltip" : "查看或编辑" 
+  	, "From" : "从" 
+  	, "To" : "到" 
+  	, "Value" : "金额" 
+  	, "H_Datetime" : "记录时间" 
+  	, "IncType" : "类型" 
+  	, "Pin" : "账号" 
+  	, "E164" : "终端号码" 
+  	, "Old_Balance" : "充前余额" 
+  	, "Cost" : "充值金额" 
+  	, "New_Balance" : "充后余额" 
+  	, "RealCost" : "实付金额" 
+  	, "UserName" : "操作用户" 
+  	, "RC_Code" : "代码" 
+  	, "Remark" : "备注" 
+ 	, "SourcePin" : "源账号" 
+  	, "WhereEx" : "查询条件" 
+	, "EndpointNO" : "终端号码" 
+	, "Type" : "账务类型" 
+	, "Agent" : "代理商" 
+	, "Guid_SN" : "被充值手机IMEI" 
+	, "Pno" : "被充值手机号码" 
+	, "CS_Name" : "Rate Plan" 
+	, "CurrencyType" : "货币类型" 
+	, "AgentQuery" :"..."
+	, "Sure" :"确定"
+	
+}

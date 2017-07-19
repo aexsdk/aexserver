@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vpn_control>
+	<return value="101"  message="设置成功" />
+	<return value="-101"  message="设置失败" />
+	<return value="101"  message="设置成功" />
+</vpn_control>

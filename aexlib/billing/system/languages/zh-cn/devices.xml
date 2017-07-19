@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<devices>
+	<return value="-105"  	message="数据库错误,请联系管理员" />
+	<return value="stock_action:101"	message="设备入库成功" />
+	<return value="stock_action:-101"  	message="该设备已经存在" />
+	<return value="stock_action:-102"  	message="该设备入库错误" />
+	<return value="stock_action:-103"  	message="执行数据库错误" />
+	<return value="stock_action:-104"  	message="创建设备入库信息错误" />
+	<return value="stock_action:-105"  	message="该设备无法使用，请重新更换序列号(IMEI)" />
+	<return value="delivery_action:101"	message="设备出库成功" />
+	<return value="delivery_action:-101"  	message="设备未入库" />
+	<return value="delivery_action:-102"  	message=",该设备已经出过库" />
+	<return value="delivery_action:-103"  	message=",该设备执行数据库错误" />
+	<return value="delivery_action:-104"  	message=",该设备出库错误" />
+	<return value="delivery_action:-105"  	message="创建出库批次单失败" />
+	<return value="dt_unbind:101"  message="取消绑定成功" />
+	<return value="dt_unbind:-101"  message="取消绑定失败" />
+	<return value="DTQuery:-103"  message="IMEI不存在" />
+	<return value="DTQuery:-102"  message="手机号码不存在" />
+	<return value="recharge:301"  message="充值成功%2$s%3$s%4$s。代码[%1$d]。" />
+	<return value="recharge:302"  message="本次充值金额为:%1$s%2$s;" /> 
+	<return value="recharge:303"  message="当前账户余额为:%1$s%2$s;" /> 
+	<return value="recharge:304"  message="充值卡剩余余额:%1$s%2$s;" /> 
+	<return value="recharge:305"  message="免费通话时长为:%s分钟" />
+	<return value="recharge:306"  message="资费套餐为：%s"/>
+	<return value="recharge:307"  message="租期至：%s"/>
+	<return value="recharge:-301" message="充值失败，充值卡账号或者密码错误,代码［%1$d］。" /> 
+	<return value="recharge:-302" message="充值失败，计费账号已过期,代码［%1$d］。" /> 
+	<return value="recharge:-303" message="充值失败，计费账号不存在,代码［%1$d］。" /> 
+	<return value="recharge:-304" message="充值失败，该充值卡金额为不足,代码［%1$d］。" /> 
+    <return value="recharge:-305" message="充值失败，该充值卡已经被使用,代码［%1$d］。" /> 
+	<return value="recharge:-306" message="充值失败，充值卡的代理商与手机帐号属于不同的代理商,代码［%1$d］。" /> 
+	<return value="recharge:-307" message="充值失败，手机帐号与目的帐号货币类型不一致,代码［%1$d］。" /> 
+	<return value="recharge:-308" message="充值失败，代码［%1$d］。" /> 
+	<return value="recharge:-309" message="充值失败，扣减充值卡余额失败,代码［%1$d］" /> 
+	<return value="edit_ep_info:1" message="编辑终端信息成功" /> 
+	<return value="edit_ep_info:-1" message="编辑终端信息失败" /> 
+	<return value="dt_unbind:-401" message="该imei不存在，取消绑定失败" /> 
+	<return value="dt_unbind:-403" message="该手机号码不匹配,取消绑定失败" /> 
+	<return value="dt_unbind:-404" message="取消绑定失败" /> 
+	<return value="dt_unbind:401" message="取消绑定成功" /> 
+</devices>
+
