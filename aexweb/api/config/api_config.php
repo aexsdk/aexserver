@@ -16,10 +16,10 @@ define("_UPDATE_KEY_","ophone");
 define("_API_PREFIX_","UTONE-EZTOR-OPHONE:");
 //定义数据库的连接参数
 //define("_DB_CONNECTION_STR_",'dbname=utone_db user=utone hostaddr=221.4.210.94  port=5432');
-define("_DB_CONNECTION_STR_",'dbname=utone_db user=utone hostaddr=202.134.80.108  port=5432');
+define("_DB_CONNECTION_STR_",'dbname=utone_db user=utone hostaddr=127.0.0.1  port=5432');
 //定义Route数据库的连接参数
 //define("_ROUTE_CONNECTION_STR_",'dbname=utone_db user=utone hostaddr=221.4.210.94  port=5432');
-define("_ROUTE_CONNECTION_STR_",'dbname=utone_db user=utone hostaddr=202.134.80.108  port=5432');
+define("_ROUTE_CONNECTION_STR_",'dbname=utone_db user=utone hostaddr=127.0.0.1  port=5432');
 //定义API的目的模块
 define("_DEST_MOD_","UPHONE");
 
@@ -137,7 +137,7 @@ class class_config{
 	);
 	
 	public $pin_3ths = array(
-		'u' => 'http://202.134.80.109/voip/utone/api/api_use_pin.php'  
+		'u' => 'http://billing.eztor.com/utone/api/api_use_pin.php'  
 	);
 	
 	public $pin_cs = array(
@@ -160,7 +160,7 @@ class class_config{
 	public $dest_mod = _DEST_MOD_;
 	public $LogLevel  = 10;
 	public $billing_db_config=array(
-				"HOST" => '202.134.124.228',
+				"HOST" => '127.0.0.1',
 				"DBNAME" => 'utone_db',
 				"USER" => 'utone',
 				"PASSWORD" => 'utone_db'
@@ -183,15 +183,15 @@ class class_config{
 				"password" => 'webcallback'
 				);
 
-	public $rad_acct = "202.134.124.228/9815/VoIP168/2/3";
-	public $radserver = '202.134.124.228';
+	public $rad_acct = "127.0.0.1/9815/VoIP168/2/3";
+	public $radserver = '127.0.0.1';
 	public $authport = 9815;
 	public $sharedsecret = 'VoIP168';
 	public $retryTimes = 2;
 	public $timeout = 3;
-	public $server_addr = '202.134.80.109';
-	public $wfs_api_url = 'http://202.134.80.109/voip/wfs/api.php';
-	public $new_wfs_api_url = 'http://202.134.80.109/voip/wfs/api_new.php';
+	public $server_addr = '127.0.0.1';
+	public $wfs_api_url = 'http://billing.eztor.com/wfs/api.php';
+	public $new_wfs_api_url = 'http://billing.eztor.com/wfs/api_new.php';
 	
 	/********** 易宝支付非银行卡支付*************/
 	//商户编号p1_MerId,以及密钥merchantKey 需要从易宝支付平台获得
@@ -202,8 +202,8 @@ class class_config{
 	//非银行卡支付专业版请求地址,无需更改.
 	public	$yeepay_reqURL_SNDApro	= "https://www.yeepay.com/app-merchant-proxy/command.action";
 	//易宝支付callback页面
-	public	$yeepay_p8_Url = "http://202.134.80.109/voip/utone/api/api_ophone.php?a=3pay_callback";
-	public	$new_yeepay_p8_Url = "http://202.134.80.109/voip/utone/api/api_ophone_new.php?a=3pay_callback";
+	public	$yeepay_p8_Url = "http://billing.eztor.com/utone/api/api_ophone.php?a=3pay_callback";
+	public	$new_yeepay_p8_Url = "http://billing.eztor.com/utone/api/api_ophone_new.php?a=3pay_callback";
 	public  $yeepay_currency_type = "CNY";
 	
 	/********** 易宝支付非银行卡支付*************/
