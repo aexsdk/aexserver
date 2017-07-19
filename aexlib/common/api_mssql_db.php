@@ -62,6 +62,7 @@ class api_mssql_db extends api_base_db{
 	{
 		// Server in the this format: <computer>\<instance name> or 
 		// <server>,<port> when using a non default port number
+		if(!function_exists('mssql_connect'))return false;
 		$this->dblink = mssql_connect($this->host, $this->user,$this->password);
 		if(!$this->dblink)
 		{
@@ -77,7 +78,7 @@ class api_mssql_db extends api_base_db{
 	 * return void
 	 */
 	function disconnect() {
-		if($this->dblink)
+		if($this->dblink && function_exists('mssql_close'))
 			mssql_close($this->dblink);
 	}
 
@@ -95,6 +96,7 @@ class api_mssql_db extends api_base_db{
 		//$parameterString = join(',',$params);
 		//$sql                 			= "select * from ".$p_sql."(".$parameterString.")";
 		//var_dump($sql);
+		if(!function_exists('mssql_query'))return false;
 		$result = mssql_query($sql,$this->dblink);
 		if(!$result){
 			//���ش洢��̳��
@@ -178,6 +180,7 @@ class api_mssql_db extends api_base_db{
 	public function exec_db_sp($sql,$params=array())
 	{
 		$rdata = array();
+		if(!function_exists('mssql_query'))return false;
 		$result = mssql_query($sql,$this->dblink);
 		if(!$result){
 			//���ش洢��̳��

@@ -219,7 +219,7 @@ if(!function_exists('array_to_string'))
  if(!function_exists('api_encrypt')){
 	function api_encrypt($string,$key){
 		//echo sprintf("\r\nKey=%s<br>\r\n",$key);
-		$encryptString  =  md5_encrypt_hex($string,$key);
+		$encryptString  =  $string;//md5_encrypt_hex($string,$key);
 		return   $encryptString;
 	}
 }
@@ -229,7 +229,7 @@ if(!function_exists('array_to_string'))
  * */
 if(!function_exists('api_decrypt')){
 	function api_decrypt($string,$key){
-		$decryptString  =   md5_decrypt_hex($string,$key);
+		$decryptString  =   $string;//md5_decrypt_hex($string,$key);
 		return   $decryptString;
 	}
 }

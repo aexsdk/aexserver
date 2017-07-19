@@ -11,7 +11,7 @@
 error_reporting(E_ALL ^ E_NOTICE);//ignore the "notice" error
 require_once (dirname(__FILE__).'/api_radius_def.php');
 
-if (! extension_loaded ( 'radius' )) {
+if (! extension_loaded ( 'radius' ) && function_exists('dl')) {
 	dl ( 'radius.' . PHP_SHLIB_SUFFIX );
 }
 
