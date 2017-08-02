@@ -5,7 +5,7 @@
 if (!extension_loaded('md5ext')) {
 	dl('php_md5ext.' . PHP_SHLIB_SUFFIX);
 }*/
-define("__EZLIB__",dirname(dirname(dirname(__FILE__))).'/ezlib_dp');
+define("__EZLIB__",dirname(dirname(dirname(__FILE__))).'/aexlib');
 
 //一般请求的加密密钥
 define("_KEY_", "abcd1234");
