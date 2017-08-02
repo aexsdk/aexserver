@@ -2,7 +2,6 @@
 error_reporting(E_ALL ^ E_NOTICE);//ignore the "notice" error
 
 require_once (dirname(__FILE__).'/config/api_config.php');
-require_once (dirname(__FILE__).'/config/api_radius_config.php');
 require_once __EZLIB__.'/common/api_common.php';							
 require_once __EZLIB__.'/common/api_log_class.php';
 require_once __EZLIB__.'/common/api_json.php';		
