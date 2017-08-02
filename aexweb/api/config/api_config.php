@@ -6,10 +6,8 @@ if (!extension_loaded('md5ext')) {
 	dl('php_md5ext.' . PHP_SHLIB_SUFFIX);
 }*/
 
-define("__EZLIB__",dirname(dirname(dirname(dirname(__FILE__)))).'/aexlib');
-
 //一般请求的加密密钥
-define("_KEY_", "mlm");
+define("_KEY_", "aex");
 //更新配置请求的加密密钥
 define("_UPDATE_KEY_","ophone");
 //旧格式的返回参数的前缀
