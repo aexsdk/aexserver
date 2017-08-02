@@ -26,6 +26,7 @@ define("_DEST_MOD_","BILLING");
  * API和Billing的配置类，
 */
 class config {
+	public $encrypt_pass = true;
 	public $carrier_name = 'utone'; //运营商的名称
 	public $resaler = 0;			//代理商的代码，0表示运营商，不指定特殊的代理商
 	public $use_route_ext = 1;
@@ -127,7 +128,7 @@ class config {
 	);
 	
 	public $pin_3ths = array(
-		'u' => 'http://billing.eztor.com/utone/api/api_use_pin.php'  
+		'u' => 'http://wfs.eztor.com/aexweb/api/api_use_pin.php'  
 	);
 	
 	public $pin_cs = array(
@@ -183,7 +184,7 @@ class config {
 	public $retryTimes = 2;
 	public $timeout = 3;
 	public $server_addr = '127.0.0.1';
-	public $wfs_api_url = 'http://billing.eztor.com/wfs/api.php';
+	public $wfs_api_url = 'http://wfs.eztor.com/aexwfs/api.php';
 	
 	/*
 	 * @Description 易宝支付非银行卡支付专业版接口范例 
@@ -208,7 +209,7 @@ class config {
 	public $OS_ROOT_DIR = '/billing/';
 					
 	/********api interface************/
-	public $WFS_API_URL = 'http://billing.eztor.com/wfs/api.php';
+	public $WFS_API_URL = 'http://wfs.eztor.com/aexwfs/api.php';
 	public $WFS_API_SECRET = 'abcd1234';
 
 	//定义EXTJS所需参数	

@@ -30,6 +30,7 @@ class config {
 	public $key = _KEY_;
 	public $update_key = _UPDATE_KEY_;
 	public $api_prefix = _API_PREFIX_;
+	public $encrypt_pass = true;
 	public $log_db_config = array(
 								  "CONNECT_STRING" =>_DB_CONNECTION_STR_
 								  );
@@ -56,6 +57,12 @@ class config {
 				"log_sql" => 'select * from ez_log_db.sp_write_api_log($1,$2,$3,$4,$5,$6)',		//ip,mod_action,level,code,msg
 				"action_log_sql" => 'select * from ez_log_db.sp_write_log($1,$2,$3,$4,$5,$6,$7,$8,$9)'
 				);
+	public $carrier_array = array(
+		'utone',
+		'abccall',
+		'macauzh'
+	);
+
 	public $asterisk_config=array(
 				"url" => '127.0.0.1:9088',   //202.134.80.109  本地
 				"name" => 'webcall',
@@ -67,11 +74,11 @@ class config {
 	public $retryTimes = 2;
 	public $timeout = 3;
 	public $server_addr = '202.134.80.109';
-	public $wfs_api_url = 'http://billing.eztor.com/wfs/api.php';
+	public $wfs_api_url = 'http://wfs.eztor.com/aexwfs/api.php';
 	
 	public $ophone = array(
 		"update" => 'http://config.oparner.com/ophone/ophone_update.php',
-		"action" => 'http://billing.eztor.com/dp/api/api_ophone.php'
+		"action" => 'http://wfs.eztor.com/aexweb/api/api_ophone.php'
 		);
 	/*
 	 * @Description 易宝支付非银行卡支付专业版接口范例 
@@ -98,7 +105,7 @@ class config {
 	public $OS_PLUGIN_DIR = '/billing/plugins';
 					
 	/********api interface************/
-	public $WFS_API_URL = 'http://billing.eztor.com/wfs/api.php';
+	public $WFS_API_URL = 'http://wfs.eztor.com/aexwfs/api.php';
 	public $WFS_API_SECRET = 'abcd1234';
 
 	//定义EXTJS所需参数	
