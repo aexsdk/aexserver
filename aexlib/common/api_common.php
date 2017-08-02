@@ -1,7 +1,6 @@
 <?php
 date_default_timezone_set('Asia/Chongqing');
 
-
 function find_params($pn,$default=''){
 	if(is_array($pn)){
 		foreach ($pn as $name){

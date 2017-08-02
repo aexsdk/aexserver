@@ -1,6 +1,6 @@
 <?php
 
-require_once (__EZLIB__.'/libary/pnews/langconvert.inc.php');
+//require_once (__EZLIB__.'/libary/pnews/langconvert.inc.php');
 
 define ( sms_user_id, 'J00030' );
 define ( sms_password, '147258' );
