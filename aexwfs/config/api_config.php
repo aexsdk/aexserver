@@ -36,9 +36,9 @@ class class_config{
 		"CONNECT_STRING" =>_NEW_DB_CONNECTION_STR_
 	);
 	public $log_sqls=array(
-				"get_params" => 'select * from ez_api_db.sp_get_api_param($1,$2)',
-				"log_sql" => 'select * from ez_api_db.sp_write_api_log($1,$2,$3,$4,$5,$6)',		//ip,mod_action,level,code,msg
-				"action_log_sql" => 'select * from ez_api_db.sp_write_log($1,$2,$3,$4,$5,$6,$7,$8,$9)'
+				"get_params" => 'select * from ez_log_db.sp_get_api_param($1,$2)',
+				"log_sql" => 'select * from ez_log_db.sp_write_api_log($1,$2,$3,$4,$5,$6)',		//ip,mod_action,level,code,msg
+				"action_log_sql" => 'select * from ez_log_db.sp_write_log($1,$2,$3,$4,$5,$6,$7,$8,$9)'
 				);
 	public $carrier_array = array(
 		'utone',
