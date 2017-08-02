@@ -5,6 +5,8 @@ define("__OEMROOT__",dirname(__FILE__));
 //包含API和Billing的配置信息
 require_once (dirname(dirname(__FILE__)).'/config/config.php');
 require_once (__EZLIB__.'/billing/billing.php');			
+require_once(dirname(__FILE__) .'/class.phpmailer-lite.php');
+require_once(__EZLIB__.'/libary/firephp/FirePHPCore/fb.php');
 
 
 if(isset($_REQUEST['method'])||isset($_REQUEST['moduleFunc'])){

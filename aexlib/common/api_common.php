@@ -1,7 +1,4 @@
 <?php
-require_once(dirname(__FILE__) .'/class.phpmailer-lite.php');
-require_once(__EZLIB__.'/libary/firephp/FirePHPCore/fb.php');
-
 date_default_timezone_set('Asia/Chongqing');
 
 
