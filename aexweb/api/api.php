@@ -27,13 +27,13 @@ $p_params = array(
 	'common-path'=> __EZLIB__.'/common',
 	'config' => $config
 );
-//var_dump($p_params);
+var_dump($p_params);
 $config->dest_mod = 'IVR_API';		//重置模块名为OPHONE模块
 $api_object = new class_api($config,$p_params);
 $api_object->no_log = TRUE;
 //IP Dialer不需要加密
 $api_object->md5_key = '';
-//$action = $api_object->decode_param($api_object->get_md5_key());
+$action = $api_object->decode_param($api_object->get_md5_key());
 
 $request_ip = $_SERVER['REMOTE_ADDR'];
 /*判断IP是否是允许的IP*/
