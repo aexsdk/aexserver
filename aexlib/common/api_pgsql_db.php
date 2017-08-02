@@ -81,7 +81,6 @@ class api_pgsql_db extends api_base_db{
 
 	/**
 	 * 
-	 ����SQL��䣬���ɹ������ô���4�Ļص���each_row_func��$connectΪ�ص�����Ҫ�������Ķ���
 	 */
 	public function exec_query($sql,$params=array(),$each_row_func=null,$connext=null)
 	{
@@ -132,7 +131,7 @@ class api_pgsql_db extends api_base_db{
 	public function exec_db_sp($sql,$params=array())
 	{
 		$rdata = array();
-		$this->write_hint(sprintf("sql=%s\r\n%s",$sql,array_to_string("\r\n",$params)));
+		//$this->write_hint(sprintf("sql=%s\r\n%s",$sql,array_to_string("\r\n",$params)));
 		$result = pg_query_params($this->dblink,$sql,$params);
 		if($result){
 			//$index = 0;
@@ -149,7 +148,6 @@ class api_pgsql_db extends api_base_db{
 	}
 
 	/*
-		ִ����ݿ��ϵĴ洢��̣����ǲ��ȴ�ؽ������п��ܳ���ִ�еĴ洢���ʹ�ô˺���
 	*/
 	public function exec_db_send_sp($p_sql,$parameter){
 		//echo $p_sql;

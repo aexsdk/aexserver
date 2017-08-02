@@ -16,10 +16,10 @@ define("_UPDATE_KEY_","ophone");
 define("_API_PREFIX_","UTONE-EZTOR-OPHONE:");
 //定义数据库的连接参数
 //define("_DB_CONNECTION_STR_",'dbname=utone_db user=utone hostaddr=221.4.210.94  port=5432');
-define("_DB_CONNECTION_STR_",'dbname=aex_db user=utone hostaddr=127.0.0.1  port=5432');
+define("_DB_CONNECTION_STR_",'dbname=aex_db user=postgres hostaddr=127.0.0.1  port=5432');
 //定义Route数据库的连接参数
 //define("_ROUTE_CONNECTION_STR_",'dbname=utone_db user=utone hostaddr=221.4.210.94  port=5432');
-define("_ROUTE_CONNECTION_STR_",'dbname=aex_db user=utone hostaddr=127.0.0.1  port=5432');
+define("_ROUTE_CONNECTION_STR_",'dbname=aex_db user=postgres hostaddr=127.0.0.1  port=5432');
 //定义API的目的模块
 define("_DEST_MOD_","UPHONE");
 
