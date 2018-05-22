@@ -2,6 +2,7 @@
 <login>
 	<return value="win_title"  message="Login" />
 	<return value="btn_login"  message="Login" />
+	<return value="btn_create"  message="Create Account" />
 	<return value="fl_language"  message="Language" />
 	<return value="fl_user_name"  message="User name" />
 	<return value="fl_password"  message="Password" />

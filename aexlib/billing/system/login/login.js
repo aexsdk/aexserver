@@ -132,23 +132,27 @@ EzDesk.Login.PanelUi = Ext
 	                                region : 'center',
 	                                layout : 'form',
 	                                border : false,
-	                defaults: {
-	                  anchor: '92%'
-	              	},
+									defaults: {
+									  anchor: '92%'
+									},
 	                                buttons : [{
 	                                	text : lang_login.btn_login
 	                                	,handler:this.login
+	                                	,scope:this
+	                                },{
+	                                	text : lang_login.btn_create
+	                                	,handler : this.create_account
 	                                	,scope:this
 	                                }],
 	                                items : [{
 	                                            xtype : 'container',
 	                                            autoEl : 'div',
-                                height:80,
+												height:80,
 	                                            cls : 'x-login-logo'
 	                               },{
                             	       xtype : 'IconCombo',
                                        fieldLabel : lang_login.fl_language,
-                       //anchor:'90%',
+									   //anchor:'90%',
                                        emptyText : lang_login.Pls_select_lang,
                                        id : 'fd_login_language',
                        store : new Ext.data.SimpleStore({
@@ -176,14 +180,14 @@ EzDesk.Login.PanelUi = Ext
                                    },{
                                        xtype : 'textfield',
                                        fieldLabel : lang_login.fl_user_name,
-                       //anchor:'90%',
+									   //anchor:'90%',
                                        emptyText : lang_login.tt_EmailTypeText,
                                        id : 'fd_login_username'
                                    },
                                    {
                                        xtype : 'textfield',
                                        fieldLabel : lang_login.fl_password,
-                       //anchor:'100%',
+									   //anchor:'100%',
                                        emptyText : lang_login.tt_PassTypeText,
                                        id : 'fd_login_password',
                                        inputType : 'password'

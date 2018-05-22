@@ -188,7 +188,8 @@ class billing_os extends os{
 			'os_load_url' => sprintf("%s?act=load",$_SERVER['PHP_SELF']),
 			'os_connect_url' => sprintf("%s?act=connect",$_SERVER['PHP_SELF']),
 			'os_service_url' => sprintf("%s",$_SERVER['PHP_SELF']),
-			'os_lang_code' => $this->get_lang()
+			'os_lang_code' => $this->get_lang(),
+			'os_have_account' => 
 		);
 		$this->smarty->assign('extjs_js',$this->Extjs_jsfiles);
 		$this->smarty->assign('extjs_css',$this->Extjs_cssfiles);

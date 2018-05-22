@@ -2,6 +2,7 @@
 <login>
 	<return value="win_title"  message="系统登录" />
 	<return value="btn_login"  message="登录" />
+	<return value="btn_create"  message="创建用户" />
 	<return value="fl_language"  message="界面语言" />
 	<return value="fl_user_name"  message="用户名" />
 	<return value="fl_password"  message="密码" />
